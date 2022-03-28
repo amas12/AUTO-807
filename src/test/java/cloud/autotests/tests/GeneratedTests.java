@@ -5,8 +5,7 @@ import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.title;
+import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -17,24 +16,48 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Regression Testing")
     void generatedTest() {
         step("Open 'https://stage.onlc.market/'", () -> {
-            step("// todo: just add selenium action");
+            open("https://stage.onlc.market/");
+        });
+        step("Поиск по наименованию оферты", () -> {
+            $("#HomeOffersForm_query").setValue("Клавиатура DX1").pressEnter().clear();
+            sleep(5000);
+        });
+        step("Нажать на кнопку крестик", () -> {
+            $(".anticon-close-circle").click();
+        });
+        step("Поставщик, наименование", () -> {
+            $("#HomeOffersForm_providerQuery").setValue("ООО «Мир Хобби»").pressEnter();
+            sleep(9000);
+        });
+        step("Нажать на кнопку крестик", () -> {
+            $(".providerQuery___StyledFormItem-sc-ogeujy-0 .ant-input-suffix").click();
+            sleep(6000);
         });
 
-        step("Set username 'Alex'", () -> {
-            step("// todo: just add selenium action");
+        step("Поставщик, наименование", () -> {
+            $("#HomeOffersForm_providerQuery").setValue("1649069856").pressEnter();
+            sleep(4000);
+        });
+        step("Нажать на кнопку крестик", () -> {
+            $(".providerQuery___StyledFormItem-sc-ogeujy-0 .ant-input-suffix").click();
+            sleep(6000);
         });
 
-        step("Set password '12%#5f'", () -> {
-            step("// todo: just add selenium action");
+        step("Регионы организации", () -> {
+            $("#HomeOffersForm_priceFrom").setValue("222");
+            sleep(2000);
+        });
+        step("Регионы организации", () -> {
+            $("#HomeOffersForm_priceTo").setValue("222");
+
         });
 
-        step("Submit form", () -> {
-            step("// todo: just add selenium action");
+
+        step("Регионы организации", () -> {
+            $("#HomeOffersForm_okpd").setValue("02");
+            sleep(5000);
         });
 
-        step("Verify successful authorization as 'Alex'", () -> {
-            step("// todo: just add selenium action");
-        });
     }
 
     @Test
