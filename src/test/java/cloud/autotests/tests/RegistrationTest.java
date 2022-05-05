@@ -13,17 +13,32 @@ import static io.qameta.allure.Allure.step;
 public class RegistrationTest extends TestBase {
     Faker faker = new Faker(new Locale("ru"));
 
-    String email =  faker.internet().password();
-    String firstName =faker.name().firstName();
+    String email = faker.internet().password();
+    String firstName = faker.name().firstName();
     String lastname = faker.name().lastName();
     String fullName = faker.name().fullName();
+
+    @Test
+    @Description("Открытие формы входа")
+    @DisplayName("Regression Testing")
+    void openingLoginForm() {
+        step("Open 'https://dev1.onlc.market/',Открываем любую страницу сайта.", () -> {
+            open("https://dev1.onlc.market/");
+            clearBrowserCookies();
+            refresh();
+            sleep(1000);
+        });
+        step("В правом углу шапки сайта кликаем ссылку «Личный кабинет»", () -> {
+            $(".HeaderBottomServiceButton___StyledSpan3-sc-1ysp0s5-6").click();
+        });
+    }
 
     @Test
     @Description("Регистрация нового юзера")
     @DisplayName("Regression Testing")
     void registrationTest() {
-        step("Open 'https://stage.onlc.market/'", () -> {
-            open("https://stage.onlc.market/");
+        step("Open 'https://dev1.onlc.market/", () -> {
+            open("https://dev1.onlc.market/");
             sleep(4000);
         });
         step("Нажать на кнопку Личный кабинет ", () -> {
@@ -35,7 +50,7 @@ public class RegistrationTest extends TestBase {
             sleep(2000);
         });
         step("ВВести email", () -> {
-            $("#email").setValue(email+"@test.test");
+            $("#email").setValue(email + "@test.test");
         });
         step("ВВести Фамилия", () -> {
             $("#nameF").setValue(firstName);
