@@ -33,7 +33,7 @@ public class LoginTests extends TestBase {
         step("Open login page", () ->
                 open("/login"));
 
-        step("Fill login form", () -> {
+        step("", () -> {
             $("#Email").setValue(App.config.userLogin());
             $("#Password").setValue(App.config.userPassword())
                     .pressEnter();

@@ -1,5 +1,6 @@
-package cloud.autotests.tests;
+package cloud.autotests.tests.demowebshop;
 
+import cloud.autotests.tests.TestBase;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;

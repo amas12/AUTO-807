@@ -1,6 +1,8 @@
-package cloud.autotests.tests;
+package cloud.autotests.tests.demowebshop;
 
 
+import cloud.autotests.config.demowebshop.App;
+import cloud.autotests.tests.TestBase;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -8,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class AuthorizationTest extends TestBase{
+public class AuthorizationTest extends TestBase {
 
 
 
@@ -23,10 +25,10 @@ public class AuthorizationTest extends TestBase{
             $(".HeaderBottomServiceButton___StyledSpan3-sc-1ysp0s5-6").click();
         });
         step("Ввести email", () -> {
-            $("#email").setValue("dev1@test.test");
+            $("#email").setValue(App.config.userLogin());
         });
         step("Ввести пароль", () -> {
-            $("#password").setValue("Aa123456");
+            $("#password").setValue(App.config.userPassword());
         });
         step("Нажать на Войти", () -> {
             $(".button___StyledAntButton-sc-d38qus-1").click();
