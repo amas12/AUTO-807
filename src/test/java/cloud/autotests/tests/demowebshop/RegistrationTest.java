@@ -1,8 +1,10 @@
-package cloud.autotests.tests;
+package cloud.autotests.tests.demowebshop;
 
+import cloud.autotests.tests.TestBase;
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.Locale;
@@ -11,6 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 public class RegistrationTest extends TestBase {
+
     Faker faker = new Faker(new Locale("ru"));
 
     String email = faker.internet().password();
@@ -18,35 +21,36 @@ public class RegistrationTest extends TestBase {
     String lastname = faker.name().lastName();
     String fullName = faker.name().fullName();
 
+    @Tag("demowebshop")
     @Test
     @Description("Открытие формы входа")
     @DisplayName("Regression Testing")
     void openingLoginForm() {
-        step("Open 'https://dev1.onlc.market/',Открываем любую страницу сайта.", () -> {
-            open("https://dev1.onlc.market/");
+        step("Open 'https://stage.onlc.market/',Открываем любую страницу сайта.", () -> {
+            open("https://stage.onlc.market/");
             clearBrowserCookies();
             refresh();
             sleep(1000);
         });
-        step("В правом углу шапки сайта кликаем ссылку «Личный кабинет»", () -> {
-            $(".HeaderBottomServiceButton___StyledSpan3-sc-1ysp0s5-6").click();
+        step("В правом углу шапки сайта кликаем ссылку «Личный кабинет", () -> {
+            $(".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6").click();
         });
     }
-
+    @Tag("demowebshop")
     @Test
     @Description("Регистрация нового юзера")
     @DisplayName("Regression Testing")
-    void registrationTest() {
-        step("Open 'https://dev1.onlc.market/", () -> {
-            open("https://dev1.onlc.market/");
+    void registrationSTest() {
+        step("Open 'https://stage.onlc.market/", () -> {
+            open("https://stage.onlc.market/");
             sleep(4000);
         });
         step("Нажать на кнопку Личный кабинет ", () -> {
-            $(".HeaderBottomServiceButton___StyledSpan3-sc-1ysp0s5-6").click();
+            $(".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6").click();
             sleep(2000);
         });
         step("Нажать на кнопку Регистрация", () -> {
-            $(".sign-in___StyledButton2-sc-nh5068-16").click();
+            $(".sign-in___StyledButton2-sc-1ofz83b-16").click();
             sleep(2000);
         });
         step("ВВести email", () -> {
@@ -65,12 +69,11 @@ public class RegistrationTest extends TestBase {
             $(".ant-checkbox-input").click();
         });
         step("Нажать на кнопку Создать личный кабинет", () -> {
-            $(".button___StyledAntButton-sc-d38qus-1").click();
+            $(".button___StyledAntButton-sc-1vj16k3-1").click();
             sleep(3000);
         });
         step("Нажать на кнопку Создать личный кабинет", () -> {
-            $(".ant-modal-content .button___StyledAntButton-sc-d38qus-1").click();
-
+            $(".ant-modal-content .button___StyledAntButton-sc-1vj16k3-1").click();
         });
     }
 }
