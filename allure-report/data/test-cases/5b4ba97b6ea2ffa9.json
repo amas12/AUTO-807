@@ -1,0 +1,217 @@
+{
+  "uid" : "5b4ba97b6ea2ffa9",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest.emailTest",
+  "historyId" : "d3c0c85d966b91d82686babd4eb90ee3",
+  "time" : {
+    "start" : 1661947571392,
+    "stop" : 1661947588589,
+    "duration" : 17197
+  },
+  "description" : "Проверка текста письма с ссылкой на восстановление пароля",
+  "descriptionHtml" : "<p>Проверка текста письма с ссылкой на восстановление пароля</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947454120,
+      "stop" : 1661947454122,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947454122,
+      "stop" : 1661947454124,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка текста письма с ссылкой на восстановление пароля",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/',Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661947571393,
+        "stop" : 1661947585442,
+        "duration" : 14049
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947571393,
+          "stop" : 1661947584389,
+          "duration" : 12996
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"clearCookies\") ",
+        "time" : {
+          "start" : 1661947584389,
+          "stop" : 1661947584427,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"refresh\") ",
+        "time" : {
+          "start" : 1661947584427,
+          "stop" : 1661947584440,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947585442,
+      "stop" : 1661947588589,
+      "duration" : 3147
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947587951,
+        "stop" : 1661947588588,
+        "duration" : 637
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fece39bd84d2c032",
+      "name" : "Last screenshot",
+      "source" : "fece39bd84d2c032.png",
+      "type" : "image/png",
+      "size" : 113281
+    }, {
+      "uid" : "3541154d16d6846e",
+      "name" : "Page source",
+      "source" : "3541154d16d6846e.html",
+      "type" : "text/html",
+      "size" : 1137098
+    }, {
+      "uid" : "d00e36d62b3fcc9",
+      "name" : "Browser console logs",
+      "source" : "d00e36d62b3fcc9.txt",
+      "type" : "text/plain",
+      "size" : 939
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.OrganizationProfileTest]/[method:emailTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "emailTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "5b4ba97b6ea2ffa9.json",
+  "parameterValues" : [ ]
+}

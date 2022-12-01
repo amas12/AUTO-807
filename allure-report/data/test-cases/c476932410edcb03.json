@@ -1,0 +1,232 @@
+{
+  "uid" : "c476932410edcb03",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.robots.RoobotTest.forgot1PasswordForm",
+  "historyId" : "dc591bf09ad3d073655b73296d61c60e",
+  "time" : {
+    "start" : 1661947985581,
+    "stop" : 1661947990127,
+    "duration" : 4546
+  },
+  "description" : "Если профиль организации не заполнен, открывается форма просмотра",
+  "descriptionHtml" : "<p>Если профиль организации не заполнен, открывается форма просмотра</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947985571,
+      "stop" : 1661947985573,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947985573,
+      "stop" : 1661947985574,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Если профиль организации не заполнен, открывается форма просмотра",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://onlcmarket.ru/robots.txt',Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661947985581,
+        "stop" : 1661947989191,
+        "duration" : 3610
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/robots.txt",
+        "time" : {
+          "start" : 1661947985581,
+          "stop" : 1661947987957,
+          "duration" : 2376
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"clearCookies\") ",
+        "time" : {
+          "start" : 1661947987957,
+          "stop" : 1661947987963,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"refresh\") ",
+        "time" : {
+          "start" : 1661947987963,
+          "stop" : 1661947988177,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить кнопку Забыли пароль?",
+      "time" : {
+        "start" : 1661947989191,
+        "stop" : 1661947989362,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947989362,
+      "stop" : 1661947990126,
+      "duration" : 764
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947989521,
+        "stop" : 1661947990125,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5584cd99e8280c15",
+      "name" : "Last screenshot",
+      "source" : "5584cd99e8280c15.png",
+      "type" : "image/png",
+      "size" : 13820
+    }, {
+      "uid" : "281482d6fcb68e88",
+      "name" : "Page source",
+      "source" : "281482d6fcb68e88",
+      "type" : "text/html",
+      "size" : 241
+    }, {
+      "uid" : "8970db611673689a",
+      "name" : "Browser console logs",
+      "source" : "8970db611673689a.bin",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.robots.RoobotTest]/[method:forgot1PasswordForm()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.robots.RoobotTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.robots.RoobotTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "forgot1PasswordForm"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.robots.RoobotTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "c476932410edcb03.json",
+  "parameterValues" : [ ]
+}

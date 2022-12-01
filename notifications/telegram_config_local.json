@@ -5,6 +5,13 @@
       "chat": "-623607599",
       "replyTo": ""
     },
+
+  "discord": {
+    "token": "1014471512536911902/kgmb67DMzs5qACJuBO776G0bDfOmoV0MhMh-tao3dYh6zR4k9ASbqwut8jK6NmHn-HBM",
+    "chat": "sp-bots",
+    "replyTo": ""
+  },
+
     "base": {
       "lang": "en",
       "messenger": "telegram",

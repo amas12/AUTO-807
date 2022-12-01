@@ -1,0 +1,307 @@
+{
+  "uid" : "962eb8de9f9afa4b",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest.defunctEmailTest",
+  "historyId" : "7e343e343dd743e7c7ccf3825c6e22cb",
+  "time" : {
+    "start" : 1661947885919,
+    "stop" : 1661947913677,
+    "duration" : 27758
+  },
+  "description" : "Ввести в поле “E-mail“ почтовый адрес пользователя, который не зарегистрирован на площадке. Поле пароля оставить пустым. Нажать “Войти“.",
+  "descriptionHtml" : "<p>Ввести в поле “E-mail“ почтовый адрес пользователя, который не зарегистрирован на площадке. Поле пароля оставить пустым. Нажать “Войти“.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947776351,
+      "stop" : 1661947776352,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947776352,
+      "stop" : 1661947776354,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Ввести в поле “E-mail“ почтовый адрес пользователя, который не зарегистрирован на площадке. Поле пароля оставить пустым. Нажать “Войти“.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/",
+      "time" : {
+        "start" : 1661947885919,
+        "stop" : 1661947903605,
+        "duration" : 17686
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947885919,
+          "stop" : 1661947899594,
+          "duration" : 13675
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Личный кабинет ",
+      "time" : {
+        "start" : 1661947903605,
+        "stop" : 1661947905890,
+        "duration" : 2285
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947903606,
+          "stop" : 1661947903880,
+          "duration" : 274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести в поле “E-mail“ почтовый адрес пользователя, который не зарегистрирован на площадке",
+      "time" : {
+        "start" : 1661947905890,
+        "stop" : 1661947908516,
+        "duration" : 2626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#email\") set value(dev3!233x1@test.test)",
+        "time" : {
+          "start" : 1661947905891,
+          "stop" : 1661947906507,
+          "duration" : 616
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на Войти",
+      "time" : {
+        "start" : 1661947908516,
+        "stop" : 1661947910634,
+        "duration" : 2118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".button___StyledAntButton-sc-1vj16k3-1\") click()",
+        "time" : {
+          "start" : 1661947908516,
+          "stop" : 1661947908624,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Получить результат",
+      "time" : {
+        "start" : 1661947910634,
+        "stop" : 1661947912691,
+        "duration" : 2057
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-in___StyledCol-sc-1ofz83b-5\") should have(text 'Неверный логин или пароль')",
+        "time" : {
+          "start" : 1661947910634,
+          "stop" : 1661947910676,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947912691,
+      "stop" : 1661947913677,
+      "duration" : 986
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947913053,
+        "stop" : 1661947913676,
+        "duration" : 623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b754409d645f04ba",
+      "name" : "Last screenshot",
+      "source" : "b754409d645f04ba.png",
+      "type" : "image/png",
+      "size" : 129675
+    }, {
+      "uid" : "f356296a7abc2d05",
+      "name" : "Page source",
+      "source" : "f356296a7abc2d05.html",
+      "type" : "text/html",
+      "size" : 1159789
+    }, {
+      "uid" : "5e877e625f8d4ae6",
+      "name" : "Browser console logs",
+      "source" : "5e877e625f8d4ae6.txt",
+      "type" : "text/plain",
+      "size" : 767
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.UserAuthorizationTest]/[method:defunctEmailTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "defunctEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "962eb8de9f9afa4b.json",
+  "parameterValues" : [ ]
+}

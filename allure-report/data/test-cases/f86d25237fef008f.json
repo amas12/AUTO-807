@@ -1,0 +1,1087 @@
+{
+  "uid" : "f86d25237fef008f",
+  "name" : "Regression Testing 1",
+  "fullName" : "cloud.autotests.tests.role.UnauthorizedUserTest.openOfferCard",
+  "historyId" : "31799f7a857a72fc207f1aed410574a6",
+  "time" : {
+    "start" : 1661948252225,
+    "stop" : 1661948296282,
+    "duration" : 44057
+  },
+  "description" : "Открытие формы авторизации по E-mail ",
+  "descriptionHtml" : "<p>Открытие формы авторизации по E-mail</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661948135209,
+      "stop" : 1661948135211,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661948135211,
+      "stop" : 1661948135213,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Открытие формы авторизации по E-mail ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/",
+      "time" : {
+        "start" : 1661948252225,
+        "stop" : 1661948264865,
+        "duration" : 12640
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661948252225,
+          "stop" : 1661948260858,
+          "duration" : 8633
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Search by offer name",
+      "time" : {
+        "start" : 1661948264865,
+        "stop" : 1661948269745,
+        "duration" : 4880
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomeOffersForm_query\") set value(окпд)",
+        "time" : {
+          "start" : 1661948264865,
+          "stop" : 1661948265340,
+          "duration" : 475
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomeOffersForm_query\") press enter()",
+        "time" : {
+          "start" : 1661948265340,
+          "stop" : 1661948265738,
+          "duration" : 398
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Choose an offer",
+      "time" : {
+        "start" : 1661948269745,
+        "stop" : 1661948277885,
+        "duration" : 8140
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[href=\"/home/offers/show/1508252/\"]\") click()",
+        "time" : {
+          "start" : 1661948269745,
+          "stop" : 1661948272875,
+          "duration" : 3130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check path 'Home' ",
+      "time" : {
+        "start" : 1661948277885,
+        "stop" : 1661948277922,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-breadcrumb-link\") should have(text 'Главная')",
+        "time" : {
+          "start" : 1661948277885,
+          "stop" : 1661948277922,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check path 'Offer'",
+      "time" : {
+        "start" : 1661948277923,
+        "stop" : 1661948277953,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[href=\"/home/offer/list/\"]\") should have(text 'Оферты')",
+        "time" : {
+          "start" : 1661948277923,
+          "stop" : 1661948277953,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check path 'Offer name'",
+      "time" : {
+        "start" : 1661948277953,
+        "stop" : 1661948280997,
+        "duration" : 3044
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".breadcrumbs___StyledSpan-sc-nvq3lj-0\") should have(text 'окпд')",
+        "time" : {
+          "start" : 1661948280953,
+          "stop" : 1661948280997,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Name of company",
+      "time" : {
+        "start" : 1661948280997,
+        "stop" : 1661948284046,
+        "duration" : 3049
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[href=\"/home/organisations/1/\"]\") should have(text 'ООО \"Карта\"')",
+        "time" : {
+          "start" : 1661948284001,
+          "stop" : 1661948284046,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Imust contain article",
+      "time" : {
+        "start" : 1661948284046,
+        "stop" : 1661948284069,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".key\") should have(text 'Артикул')",
+        "time" : {
+          "start" : 1661948284046,
+          "stop" : 1661948284069,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Сheck article",
+      "time" : {
+        "start" : 1661948284070,
+        "stop" : 1661948284102,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[itemprop='sku']\") should have(text 'GVXp8FLekA8s')",
+        "time" : {
+          "start" : 1661948284070,
+          "stop" : 1661948284102,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Must contain OKPD2",
+      "time" : {
+        "start" : 1661948284102,
+        "stop" : 1661948284131,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".key[1]\") should have(text 'ОКПД2')",
+        "time" : {
+          "start" : 1661948284102,
+          "stop" : 1661948284131,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "OKPD2 33.2 Point and check the text okpd",
+      "time" : {
+        "start" : 1661948284131,
+        "stop" : 1661948284399,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".popover__Popover-sc-mdy8u9-0\") should have(text '33.2')",
+        "time" : {
+          "start" : 1661948284131,
+          "stop" : 1661948284164,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".popover__Popover-sc-mdy8u9-0\") hover()",
+        "time" : {
+          "start" : 1661948284164,
+          "stop" : 1661948284355,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-popover-open\") should have(text '33.2')",
+        "time" : {
+          "start" : 1661948284355,
+          "stop" : 1661948284399,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "OKPD2 33.1 Point and check the text okpd",
+      "time" : {
+        "start" : 1661948284400,
+        "stop" : 1661948284625,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".popover__Popover-sc-mdy8u9-0[1]\") should have(text '33.1')",
+        "time" : {
+          "start" : 1661948284400,
+          "stop" : 1661948284429,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".popover__Popover-sc-mdy8u9-0[1]\") hover()",
+        "time" : {
+          "start" : 1661948284430,
+          "stop" : 1661948284583,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-popover-open\") should have(text '33.1')",
+        "time" : {
+          "start" : 1661948284583,
+          "stop" : 1661948284625,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "OKPD2 33 Point and check the text okpd",
+      "time" : {
+        "start" : 1661948284625,
+        "stop" : 1661948284851,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".popover__Popover-sc-mdy8u9-0[2]\") should have(text '33')",
+        "time" : {
+          "start" : 1661948284625,
+          "stop" : 1661948284665,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".popover__Popover-sc-mdy8u9-0[2]\") hover()",
+        "time" : {
+          "start" : 1661948284665,
+          "stop" : 1661948284814,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-popover-open\") should have(text '33')",
+        "time" : {
+          "start" : 1661948284814,
+          "stop" : 1661948284851,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Must contain publication date",
+      "time" : {
+        "start" : 1661948284851,
+        "stop" : 1661948284876,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".key[2]\") should have(text 'Дата публикации')",
+        "time" : {
+          "start" : 1661948284851,
+          "stop" : 1661948284876,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Publication date",
+      "time" : {
+        "start" : 1661948284876,
+        "stop" : 1661948284915,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".value[2]\") should have(text '18.07.2022')",
+        "time" : {
+          "start" : 1661948284876,
+          "stop" : 1661948284915,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Must contain unit of measurement",
+      "time" : {
+        "start" : 1661948284915,
+        "stop" : 1661948284940,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".key[3]\") should have(text 'Ед. измерения')",
+        "time" : {
+          "start" : 1661948284915,
+          "stop" : 1661948284940,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "unit of measurement",
+      "time" : {
+        "start" : 1661948284940,
+        "stop" : 1661948284973,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[itemprop=\"eligibleQuantity\"]\") should have(text 'Действующее вещество: Штука')",
+        "time" : {
+          "start" : 1661948284940,
+          "stop" : 1661948284973,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Must contain region",
+      "time" : {
+        "start" : 1661948284973,
+        "stop" : 1661948285002,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".key[4]\") should have(text 'Регион')",
+        "time" : {
+          "start" : 1661948284973,
+          "stop" : 1661948285002,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Region'",
+      "time" : {
+        "start" : 1661948285002,
+        "stop" : 1661948285040,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[itemprop=\"eligibleRegion\"]\") should have(text 'Респ Адыгея, Респ Башкортостан')",
+        "time" : {
+          "start" : 1661948285002,
+          "stop" : 1661948285040,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Must contain price",
+      "time" : {
+        "start" : 1661948285040,
+        "stop" : 1661948285069,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".id___StyledDiv6-sc-u7v2lr-7\") should have(text '45 900,00 руб.')",
+        "time" : {
+          "start" : 1661948285040,
+          "stop" : 1661948285069,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Must contain НДС",
+      "time" : {
+        "start" : 1661948285069,
+        "stop" : 1661948285103,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".id___StyledDiv7-sc-u7v2lr-10\") should have(text 'В том числе НДС 10%')",
+        "time" : {
+          "start" : 1661948285070,
+          "stop" : 1661948285103,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Unit price comment",
+      "time" : {
+        "start" : 1661948285103,
+        "stop" : 1661948285129,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".id___StyledDiv8-sc-u7v2lr-11\") should have(text 'Скоро закончится')",
+        "time" : {
+          "start" : 1661948285103,
+          "stop" : 1661948285129,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Сontain button add to cart",
+      "time" : {
+        "start" : 1661948285130,
+        "stop" : 1661948288529,
+        "duration" : 3399
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".id___StyledDiv9-sc-u7v2lr-12\") should have(text 'В КОРЗИНУ')",
+        "time" : {
+          "start" : 1661948285130,
+          "stop" : 1661948285162,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"by text: В КОРЗИНУ\") click()",
+        "time" : {
+          "start" : 1661948285162,
+          "stop" : 1661948285285,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-input-number-handler-up\") double click()",
+        "time" : {
+          "start" : 1661948285285,
+          "stop" : 1661948285489,
+          "duration" : 204
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[role=\"spinbutton\"]\") should have(value '3')",
+        "time" : {
+          "start" : 1661948288494,
+          "stop" : 1661948288529,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Сheck block download documents",
+      "time" : {
+        "start" : 1661948288529,
+        "stop" : 1661948289170,
+        "duration" : 641
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".file___StyledSpan-sc-14epk5q-1\") should be(visible)",
+        "time" : {
+          "start" : 1661948288530,
+          "stop" : 1661948288581,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".file___StyledSpan-sc-14epk5q-1\") click()",
+        "time" : {
+          "start" : 1661948288581,
+          "stop" : 1661948288706,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-popover\") should be(visible)",
+        "time" : {
+          "start" : 1661948288706,
+          "stop" : 1661948289170,
+          "duration" : 464
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Unit price comment",
+      "time" : {
+        "start" : 1661948289171,
+        "stop" : 1661948295300,
+        "duration" : 6129
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[href=\"/home/organisations/1/\"]\") click()",
+        "time" : {
+          "start" : 1661948289171,
+          "stop" : 1661948289295,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 62,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661948295300,
+      "stop" : 1661948296282,
+      "duration" : 982
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661948295651,
+        "stop" : 1661948296281,
+        "duration" : 630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "46402e38c7fcd484",
+      "name" : "Last screenshot",
+      "source" : "46402e38c7fcd484.png",
+      "type" : "image/png",
+      "size" : 107054
+    }, {
+      "uid" : "9f5e7dde3c2c82da",
+      "name" : "Page source",
+      "source" : "9f5e7dde3c2c82da.html",
+      "type" : "text/html",
+      "size" : 1146811
+    }, {
+      "uid" : "18bb8d55c837548b",
+      "name" : "Browser console logs",
+      "source" : "18bb8d55c837548b.txt",
+      "type" : "text/plain",
+      "size" : 2909
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.role.UnauthorizedUserTest]/[method:openOfferCard()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.role.UnauthorizedUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.role.UnauthorizedUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openOfferCard"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.role.UnauthorizedUserTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "f86d25237fef008f.json",
+  "parameterValues" : [ ]
+}

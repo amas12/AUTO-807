@@ -1,0 +1,114 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "d517aaf731f6d3a55d6791e60e747de6",
+    "name" : "cloud.autotests.tests.demowebshop.NewRegistration",
+    "statistic" : {
+      "failed" : 12,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "91a522edb80f385afacd9cd52ec16f6e",
+    "name" : "cloud.autotests.tests.role.RoleGuestTest",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "35770458f5a5a3f944820cb2be88bb5c",
+    "name" : "cloud.autotests.tests.role.UnauthorizedUserTest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "47341660e2f41cce0b2a5b301e607cba",
+    "name" : "cloud.autotests.tests.demowebshop.MyOffersTest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "df2c57554f00fb49c37acb4df93d59f6",
+    "name" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "d2abea9889132e7dae2c8bd94e6757b2",
+    "name" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "fec56516112821791bb4fb23a32c35df",
+    "name" : "cloud.autotests.tests.demowebshop.PurchaseTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "51b45adabe97d762f2fa39c7fd49c69e",
+    "name" : "cloud.autotests.tests.demowebshop.RecoveryPasswordTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "2ff0697eca8489e11a406fadc533d4a8",
+    "name" : "cloud.autotests.tests.demowebshop.RegistrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "218463e613bcf08a16d8863dec4a71a0",
+    "name" : "cloud.autotests.tests.robots.RoobotTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

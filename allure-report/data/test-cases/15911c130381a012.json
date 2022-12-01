@@ -1,0 +1,2041 @@
+{
+  "uid" : "15911c130381a012",
+  "name" : "Purchase",
+  "fullName" : "cloud.autotests.tests.role.UnauthorizedUserTest.openingPurchase",
+  "historyId" : "ac4f30aaf32d43c2966456c6af67c1ff",
+  "time" : {
+    "start" : 1661948179030,
+    "stop" : 1661948252214,
+    "duration" : 73184
+  },
+  "description" : "Открытие формы авторизации по E-mail ",
+  "descriptionHtml" : "<p>Открытие формы авторизации по E-mail</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}",
+  "statusTrace" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\r\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)\r\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:157)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\r\n\tat com.sun.proxy.$Proxy31.shouldHave(Unknown Source)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.lambda$openingPurchase$64(UnauthorizedUserTest.java:311)\r\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\r\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\r\n\tat io.qameta.allure.Allure.step(Allure.java:181)\r\n\tat io.qameta.allure.Allure.step(Allure.java:125)\r\n\tat io.qameta.allure.Allure.step(Allure.java:112)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.openingPurchase(UnauthorizedUserTest.java:310)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)\r\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\r\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)\r\n\tat org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)\r\n\tat org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)\r\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)\r\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)\r\n\tat com.sun.proxy.$Proxy2.stop(Unknown Source)\r\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)\r\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\r\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-4AB6G28V', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\Albina\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fbaeac5ca450c969ee35aca504b8ba94\n*** Element info: {Using=css selector, value=[href='/home/purchase/1000011000804/']}\r\n\tat sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)\r\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)\r\n\t... 109 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661948135209,
+      "stop" : 1661948135211,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661948135211,
+      "stop" : 1661948135213,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Открытие формы авторизации по E-mail ",
+    "status" : "failed",
+    "statusMessage" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}",
+    "statusTrace" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\r\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)\r\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:157)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\r\n\tat com.sun.proxy.$Proxy31.shouldHave(Unknown Source)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.lambda$openingPurchase$64(UnauthorizedUserTest.java:311)\r\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\r\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\r\n\tat io.qameta.allure.Allure.step(Allure.java:181)\r\n\tat io.qameta.allure.Allure.step(Allure.java:125)\r\n\tat io.qameta.allure.Allure.step(Allure.java:112)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.openingPurchase(UnauthorizedUserTest.java:310)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)\r\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\r\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)\r\n\tat org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)\r\n\tat org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)\r\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)\r\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)\r\n\tat com.sun.proxy.$Proxy2.stop(Unknown Source)\r\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)\r\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\r\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-4AB6G28V', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\Albina\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fbaeac5ca450c969ee35aca504b8ba94\n*** Element info: {Using=css selector, value=[href='/home/purchase/1000011000804/']}\r\n\tat sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)\r\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)\r\n\t... 109 more\r\n",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/home/purchase/list/',Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661948179031,
+        "stop" : 1661948190379,
+        "duration" : 11348
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/home/purchase/list/",
+        "time" : {
+          "start" : 1661948179031,
+          "stop" : 1661948187367,
+          "duration" : 8336
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1661948190379,
+        "stop" : 1661948190498,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".title___StyledCol2-sc-1x77gcv-3\") should have(text 'Закупки')",
+        "time" : {
+          "start" : 1661948190379,
+          "stop" : 1661948190418,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".title___StyledCol2-sc-1x77gcv-3\") click()",
+        "time" : {
+          "start" : 1661948190418,
+          "stop" : 1661948190498,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Search by name",
+      "time" : {
+        "start" : 1661948190499,
+        "stop" : 1661948190752,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_query\") set value(Бутылка)",
+        "time" : {
+          "start" : 1661948190499,
+          "stop" : 1661948190752,
+          "duration" : 253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search",
+      "time" : {
+        "start" : 1661948190752,
+        "stop" : 1661948191034,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".query___StyledButton-sc-k4w9i7-0\") click()",
+        "time" : {
+          "start" : 1661948190752,
+          "stop" : 1661948191034,
+          "duration" : 282
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check purchase name",
+      "time" : {
+        "start" : 1661948191035,
+        "stop" : 1661948191491,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledRow2-sc-mxaahj-3\") should have(text 'Бутылка')",
+        "time" : {
+          "start" : 1661948191035,
+          "stop" : 1661948191491,
+          "duration" : 456
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the delete button",
+      "time" : {
+        "start" : 1661948191492,
+        "stop" : 1661948191625,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-input-clear-icon\") click()",
+        "time" : {
+          "start" : 1661948191492,
+          "stop" : 1661948191625,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Purchase number or item name",
+      "time" : {
+        "start" : 1661948191625,
+        "stop" : 1661948191832,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_query\") set value(1002341000004)",
+        "time" : {
+          "start" : 1661948191625,
+          "stop" : 1661948191832,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Click on search",
+      "time" : {
+        "start" : 1661948191832,
+        "stop" : 1661948191952,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".query___StyledButton-sc-k4w9i7-0\") click()",
+        "time" : {
+          "start" : 1661948191832,
+          "stop" : 1661948191952,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check purchase number",
+      "time" : {
+        "start" : 1661948191952,
+        "stop" : 1661948191991,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol4-sc-mxaahj-8\") should have(text '1002341000004')",
+        "time" : {
+          "start" : 1661948191952,
+          "stop" : 1661948191991,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check the Initial Cost field",
+      "time" : {
+        "start" : 1661948191992,
+        "stop" : 1661948192021,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol9-sc-mxaahj-14\") should have(text 'Начальная стоимость')",
+        "time" : {
+          "start" : 1661948191992,
+          "stop" : 1661948192021,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Not specified",
+      "time" : {
+        "start" : 1661948192021,
+        "stop" : 1661948192055,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledMoney-sc-mxaahj-16\") should have(text 'не указана')",
+        "time" : {
+          "start" : 1661948192022,
+          "stop" : 1661948192055,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Applications submitted",
+      "time" : {
+        "start" : 1661948192055,
+        "stop" : 1661948192086,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[href=\"/home/purchase/1002341000004/?tab=compositions\"]\") should have(text 'Подано оферт: 4')",
+        "time" : {
+          "start" : 1661948192055,
+          "stop" : 1661948192086,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Сheck Purchasing type",
+      "time" : {
+        "start" : 1661948192086,
+        "stop" : 1661948192116,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol6-sc-mxaahj-10\") should have(text 'Вид закупки')",
+        "time" : {
+          "start" : 1661948192086,
+          "stop" : 1661948192116,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Open procurement with request for proposals",
+      "time" : {
+        "start" : 1661948192116,
+        "stop" : 1661948192149,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol7-sc-mxaahj-11\") should have(text 'Открытая закупка с запросом оферт')",
+        "time" : {
+          "start" : 1661948192116,
+          "stop" : 1661948192149,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check the text if not a suitable purchase",
+      "time" : {
+        "start" : 1661948192150,
+        "stop" : 1661948192258,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-alert-message\") should have(text 'Нет подходящей закупки? Найти “1002341000004” на ЭТП ONLINECONTRACT')",
+        "time" : {
+          "start" : 1661948192150,
+          "stop" : 1661948192181,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-alert-message\") click()",
+        "time" : {
+          "start" : 1661948192181,
+          "stop" : 1661948192258,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the power",
+      "time" : {
+        "start" : 1661948192258,
+        "stop" : 1661948192422,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948192258,
+          "stop" : 1661948192422,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Юридическое лицо РФ full_name",
+      "time" : {
+        "start" : 1661948192422,
+        "stop" : 1661948194439,
+        "duration" : 2017
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(Карта)",
+        "time" : {
+          "start" : 1661948192422,
+          "stop" : 1661948192749,
+          "duration" : 327
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948192749,
+          "stop" : 1661948192959,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 491')",
+        "time" : {
+          "start" : 1661948192959,
+          "stop" : 1661948194143,
+          "duration" : 1184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948194143,
+          "stop" : 1661948194439,
+          "duration" : 296
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Юридическое лицо РФ short_name",
+      "time" : {
+        "start" : 1661948194439,
+        "stop" : 1661948195195,
+        "duration" : 756
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(Карта)",
+        "time" : {
+          "start" : 1661948194439,
+          "stop" : 1661948194633,
+          "duration" : 194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948194633,
+          "stop" : 1661948194889,
+          "duration" : 256
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 491')",
+        "time" : {
+          "start" : 1661948194889,
+          "stop" : 1661948194945,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948194945,
+          "stop" : 1661948195195,
+          "duration" : 250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Юридическое лицо РФ  inn",
+      "time" : {
+        "start" : 1661948195195,
+        "stop" : 1661948198023,
+        "duration" : 2828
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(1649069856)",
+        "time" : {
+          "start" : 1661948195196,
+          "stop" : 1661948195498,
+          "duration" : 302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948195498,
+          "stop" : 1661948195698,
+          "duration" : 200
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 491')",
+        "time" : {
+          "start" : 1661948195698,
+          "stop" : 1661948197798,
+          "duration" : 2100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948197798,
+          "stop" : 1661948198023,
+          "duration" : 225
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Индивидуальный предприниматель ip_name_f",
+      "time" : {
+        "start" : 1661948198024,
+        "stop" : 1661948200386,
+        "duration" : 2362
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(Сбалансированный)",
+        "time" : {
+          "start" : 1661948198024,
+          "stop" : 1661948198319,
+          "duration" : 295
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948198319,
+          "stop" : 1661948198512,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 1')",
+        "time" : {
+          "start" : 1661948198512,
+          "stop" : 1661948200202,
+          "duration" : 1690
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948200202,
+          "stop" : 1661948200386,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Индивидуальный предприниматель ip_name_i",
+      "time" : {
+        "start" : 1661948200387,
+        "stop" : 1661948202086,
+        "duration" : 1699
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(Авторитет)",
+        "time" : {
+          "start" : 1661948200387,
+          "stop" : 1661948200647,
+          "duration" : 260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948200647,
+          "stop" : 1661948200834,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 1')",
+        "time" : {
+          "start" : 1661948200834,
+          "stop" : 1661948201911,
+          "duration" : 1077
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948201911,
+          "stop" : 1661948202086,
+          "duration" : 175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Индивидуальный предприниматель ip_name_o",
+      "time" : {
+        "start" : 1661948202086,
+        "stop" : 1661948207220,
+        "duration" : 5134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(ИП Сбалансированный Авторитет Байесович)",
+        "time" : {
+          "start" : 1661948202086,
+          "stop" : 1661948202560,
+          "duration" : 474
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948202560,
+          "stop" : 1661948202751,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 1')",
+        "time" : {
+          "start" : 1661948204759,
+          "stop" : 1661948207027,
+          "duration" : 2268
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948207027,
+          "stop" : 1661948207220,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Индивидуальный предприниматель inn",
+      "time" : {
+        "start" : 1661948207220,
+        "stop" : 1661948209917,
+        "duration" : 2697
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(217924713030)",
+        "time" : {
+          "start" : 1661948207220,
+          "stop" : 1661948207494,
+          "duration" : 274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948207494,
+          "stop" : 1661948207687,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 1')",
+        "time" : {
+          "start" : 1661948209702,
+          "stop" : 1661948209738,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948209738,
+          "stop" : 1661948209916,
+          "duration" : 178
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Юридическое лицо иностранного государства full_name",
+      "time" : {
+        "start" : 1661948209917,
+        "stop" : 1661948214021,
+        "duration" : 4104
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(Полное наименование  Инглиш)",
+        "time" : {
+          "start" : 1661948209917,
+          "stop" : 1661948210316,
+          "duration" : 399
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948210316,
+          "stop" : 1661948210507,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 4')",
+        "time" : {
+          "start" : 1661948212520,
+          "stop" : 1661948213837,
+          "duration" : 1317
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948213837,
+          "stop" : 1661948214021,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Юридическое лицо иностранного государства inn",
+      "time" : {
+        "start" : 1661948214022,
+        "stop" : 1661948216705,
+        "duration" : 2683
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") set value(6026573582)",
+        "time" : {
+          "start" : 1661948214022,
+          "stop" : 1661948214287,
+          "duration" : 265
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_providerQuery\") press enter()",
+        "time" : {
+          "start" : 1661948214287,
+          "stop" : 1661948214480,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledCol-sc-1ntw6q1-2\") should have(text 'Найдено: 4')",
+        "time" : {
+          "start" : 1661948216487,
+          "stop" : 1661948216524,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948216524,
+          "stop" : 1661948216705,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Search name Юридическое лицо иностранного государства inn",
+      "time" : {
+        "start" : 1661948216705,
+        "stop" : 1661948216964,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-select-selector\") click()",
+        "time" : {
+          "start" : 1661948216705,
+          "stop" : 1661948216964,
+          "duration" : 259
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Organization regions, find, click on search",
+      "time" : {
+        "start" : 1661948216964,
+        "stop" : 1661948226630,
+        "duration" : 9666
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_regions\") set value(01  Респ Адыгея)",
+        "time" : {
+          "start" : 1661948216965,
+          "stop" : 1661948217164,
+          "duration" : 199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_regions\") click()",
+        "time" : {
+          "start" : 1661948217164,
+          "stop" : 1661948217245,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-checkbox-input\") click()",
+        "time" : {
+          "start" : 1661948217245,
+          "stop" : 1661948217412,
+          "duration" : 167
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_regions\") set value(02  Респ Башкортостан)",
+        "time" : {
+          "start" : 1661948217413,
+          "stop" : 1661948217609,
+          "duration" : 196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_regions\") click()",
+        "time" : {
+          "start" : 1661948217609,
+          "stop" : 1661948217764,
+          "duration" : 155
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-checkbox-input\") click()",
+        "time" : {
+          "start" : 1661948217764,
+          "stop" : 1661948217902,
+          "duration" : 138
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_regions\") set value(99  г Байконур)",
+        "time" : {
+          "start" : 1661948220915,
+          "stop" : 1661948221087,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_regions\") click()",
+        "time" : {
+          "start" : 1661948221087,
+          "stop" : 1661948221147,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".ant-checkbox-input\") click()",
+        "time" : {
+          "start" : 1661948221147,
+          "stop" : 1661948221273,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".query___StyledButton-sc-k4w9i7-0\") click()",
+        "time" : {
+          "start" : 1661948224278,
+          "stop" : 1661948224627,
+          "duration" : 349
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 10,
+      "hasContent" : true
+    }, {
+      "name" : "Check region",
+      "time" : {
+        "start" : 1661948226630,
+        "stop" : 1661948226746,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".region-tag___StyledParagraph-sc-n80g0h-0\") should have(text '01  Респ Адыгея')",
+        "time" : {
+          "start" : 1661948226630,
+          "stop" : 1661948226685,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".region-tag___StyledParagraph-sc-n80g0h-0[1]\") should have(text '02  Респ Башкортостан')",
+        "time" : {
+          "start" : 1661948226688,
+          "stop" : 1661948226714,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".region-tag___StyledParagraph-sc-n80g0h-0[2]\") should have(text '99  г Байконур')",
+        "time" : {
+          "start" : 1661948226714,
+          "stop" : 1661948226746,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Search by okpd2",
+      "time" : {
+        "start" : 1661948226747,
+        "stop" : 1661948233575,
+        "duration" : 6828
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-select-selection-overflow-item-suffix[1]\") click()",
+        "time" : {
+          "start" : 1661948226747,
+          "stop" : 1661948226833,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#HomePurchaseForm_okpd\") set value(33)",
+        "time" : {
+          "start" : 1661948226833,
+          "stop" : 1661948226944,
+          "duration" : 111
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[title=\"33.1  Услуги по ремонту металлоизделий, машин и оборудования\"]\") click()",
+        "time" : {
+          "start" : 1661948229948,
+          "stop" : 1661948230132,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[title=\"33.2  Услуги по монтажу промышленных машин и оборудования\"]\") click()",
+        "time" : {
+          "start" : 1661948230132,
+          "stop" : 1661948230226,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".query___StyledButton-sc-k4w9i7-0\") click()",
+        "time" : {
+          "start" : 1661948233234,
+          "stop" : 1661948233575,
+          "duration" : 341
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Check entered data okpd2",
+      "time" : {
+        "start" : 1661948233575,
+        "stop" : 1661948235647,
+        "duration" : 2072
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".okpd2-tag___StyledParagraph-sc-1f3mzh9-0\") should have(text '33.1  Услуги по ремонту металлоизделий, машин и оборудования')",
+        "time" : {
+          "start" : 1661948235576,
+          "stop" : 1661948235622,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".okpd2-tag___StyledParagraph-sc-1f3mzh9-0[1]\") should have(text '33.2  Услуги по монтажу промышленных машин и оборудования')",
+        "time" : {
+          "start" : 1661948235622,
+          "stop" : 1661948235647,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Publication date",
+      "time" : {
+        "start" : 1661948235647,
+        "stop" : 1661948238950,
+        "duration" : 3303
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-picker-input\") click()",
+        "time" : {
+          "start" : 1661948235647,
+          "stop" : 1661948235796,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[title=\"2022-08-14\"]\") click()",
+        "time" : {
+          "start" : 1661948238803,
+          "stop" : 1661948238950,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Deadline for accepting offers",
+      "time" : {
+        "start" : 1661948238951,
+        "stop" : 1661948239333,
+        "duration" : 382
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-picker-input-active\") click()",
+        "time" : {
+          "start" : 1661948238951,
+          "stop" : 1661948239034,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[title=\"2022-08-15\"]\") click()",
+        "time" : {
+          "start" : 1661948239034,
+          "stop" : 1661948239333,
+          "duration" : 299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check entered data",
+      "time" : {
+        "start" : 1661948239333,
+        "stop" : 1661948239632,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-empty-description\") should have(text 'По Вашему запросу ничего не найдено. Задайте другие параметры поиска.')",
+        "time" : {
+          "start" : 1661948239333,
+          "stop" : 1661948239632,
+          "duration" : 299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the clear filter button",
+      "time" : {
+        "start" : 1661948239633,
+        "stop" : 1661948242843,
+        "duration" : 3210
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") should have(text 'Очистить фильтр')",
+        "time" : {
+          "start" : 1661948239633,
+          "stop" : 1661948239658,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".sub-top___StyledButton-sc-1ntw6q1-4\") click()",
+        "time" : {
+          "start" : 1661948239658,
+          "stop" : 1661948239837,
+          "duration" : 179
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Publication date",
+      "time" : {
+        "start" : 1661948242843,
+        "stop" : 1661948246180,
+        "duration" : 3337
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-picker-input[2]\") click()",
+        "time" : {
+          "start" : 1661948242843,
+          "stop" : 1661948243029,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[title=\"2022-08-08\"]\") click()",
+        "time" : {
+          "start" : 1661948246039,
+          "stop" : 1661948246180,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Deadline for accepting offers",
+      "time" : {
+        "start" : 1661948246180,
+        "stop" : 1661948246542,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-picker-input-active[1]\") click()",
+        "time" : {
+          "start" : 1661948246180,
+          "stop" : 1661948246265,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"[title=\"2022-08-15\"]\") click()",
+        "time" : {
+          "start" : 1661948246265,
+          "stop" : 1661948246542,
+          "duration" : 277
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check title",
+      "time" : {
+        "start" : 1661948246543,
+        "stop" : 1661948251300,
+        "duration" : 4757
+      },
+      "status" : "failed",
+      "statusMessage" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}",
+      "statusTrace" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\r\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)\r\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:157)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\r\n\tat com.sun.proxy.$Proxy31.shouldHave(Unknown Source)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.lambda$openingPurchase$64(UnauthorizedUserTest.java:311)\r\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\r\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\r\n\tat io.qameta.allure.Allure.step(Allure.java:181)\r\n\tat io.qameta.allure.Allure.step(Allure.java:125)\r\n\tat io.qameta.allure.Allure.step(Allure.java:112)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.openingPurchase(UnauthorizedUserTest.java:310)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)\r\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\r\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)\r\n\tat org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)\r\n\tat org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)\r\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)\r\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)\r\n\tat com.sun.proxy.$Proxy2.stop(Unknown Source)\r\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)\r\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\r\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-4AB6G28V', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\Albina\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fbaeac5ca450c969ee35aca504b8ba94\n*** Element info: {Using=css selector, value=[href='/home/purchase/1000011000804/']}\r\n\tat sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)\r\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)\r\n\t... 109 more\r\n",
+      "steps" : [ {
+        "name" : "$(\"[href='/home/purchase/1000011000804/']\") should have(text 'ММЗ+7(900)237-05-22артикул')",
+        "time" : {
+          "start" : 1661948246543,
+          "stop" : 1661948251300,
+          "duration" : 4757
+        },
+        "status" : "failed",
+        "statusMessage" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}",
+        "statusTrace" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\r\n\tat com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)\r\n\tat com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:122)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:30)\r\n\tat com.codeborne.selenide.commands.Should.execute(Should.java:14)\r\n\tat com.codeborne.selenide.commands.Commands.execute(Commands.java:157)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:134)\r\n\tat com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:86)\r\n\tat com.sun.proxy.$Proxy31.shouldHave(Unknown Source)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.lambda$openingPurchase$64(UnauthorizedUserTest.java:311)\r\n\tat io.qameta.allure.Allure.lambda$step$0(Allure.java:113)\r\n\tat io.qameta.allure.Allure.lambda$step$1(Allure.java:127)\r\n\tat io.qameta.allure.Allure.step(Allure.java:181)\r\n\tat io.qameta.allure.Allure.step(Allure.java:125)\r\n\tat io.qameta.allure.Allure.step(Allure.java:112)\r\n\tat cloud.autotests.tests.role.UnauthorizedUserTest.openingPurchase(UnauthorizedUserTest.java:310)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)\r\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\r\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\r\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\r\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\r\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\r\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)\r\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)\r\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)\r\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)\r\n\tat org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)\r\n\tat org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)\r\n\tat org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)\r\n\tat org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)\r\n\tat org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)\r\n\tat org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)\r\n\tat org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)\r\n\tat org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)\r\n\tat com.sun.proxy.$Proxy2.stop(Unknown Source)\r\n\tat org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)\r\n\tat org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)\r\n\tat org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)\r\n\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\r\n\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-4AB6G28V', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\Albina\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fbaeac5ca450c969ee35aca504b8ba94\n*** Element info: {Using=css selector, value=[href='/home/purchase/1000011000804/']}\r\n\tat sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:70)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:44)\r\n\tat com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:33)\r\n\tat com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:102)\r\n\tat com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)\r\n\t... 109 more\r\n",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "88fd445b0bb143af",
+          "name" : "Screenshot",
+          "source" : "88fd445b0bb143af.png",
+          "type" : "image/png",
+          "size" : 174680
+        }, {
+          "uid" : "53aade0ce46696be",
+          "name" : "Page source",
+          "source" : "53aade0ce46696be.html",
+          "type" : "text/html",
+          "size" : 686486
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 124,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661948251301,
+      "stop" : 1661948252213,
+      "duration" : 912
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661948251573,
+        "stop" : 1661948252212,
+        "duration" : 639
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c4611b2ae4fa28c4",
+      "name" : "Last screenshot",
+      "source" : "c4611b2ae4fa28c4.png",
+      "type" : "image/png",
+      "size" : 171738
+    }, {
+      "uid" : "e5994e5ea1c5c1ef",
+      "name" : "Page source",
+      "source" : "e5994e5ea1c5c1ef.html",
+      "type" : "text/html",
+      "size" : 686486
+    }, {
+      "uid" : "e74746b217dfa3f7",
+      "name" : "Browser console logs",
+      "source" : "e74746b217dfa3f7.txt",
+      "type" : "text/plain",
+      "size" : 22559
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.role.UnauthorizedUserTest]/[method:openingPurchase()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.role.UnauthorizedUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.role.UnauthorizedUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openingPurchase"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.role.UnauthorizedUserTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "15911c130381a012.json",
+  "parameterValues" : [ ]
+}

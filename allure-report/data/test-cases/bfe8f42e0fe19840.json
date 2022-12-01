@@ -1,0 +1,457 @@
+{
+  "uid" : "bfe8f42e0fe19840",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.RegistrationTest.registrationSTest",
+  "historyId" : "2b8445e0fe1a778299efa3241a023520",
+  "time" : {
+    "start" : 1661947743571,
+    "stop" : 1661947758064,
+    "duration" : 14493
+  },
+  "description" : "Регистрация нового юзера",
+  "descriptionHtml" : "<p>Регистрация нового юзера</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947743560,
+      "stop" : 1661947743561,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947743561,
+      "stop" : 1661947743562,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Регистрация нового юзера",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/",
+      "time" : {
+        "start" : 1661947743571,
+        "stop" : 1661947753332,
+        "duration" : 9761
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947743572,
+          "stop" : 1661947753332,
+          "duration" : 9760
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Личный кабинет ",
+      "time" : {
+        "start" : 1661947753332,
+        "stop" : 1661947753614,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947753333,
+          "stop" : 1661947753614,
+          "duration" : 281
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Регистрация",
+      "time" : {
+        "start" : 1661947753614,
+        "stop" : 1661947754255,
+        "duration" : 641
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-in___StyledButton2-sc-1ofz83b-16\") click()",
+        "time" : {
+          "start" : 1661947753614,
+          "stop" : 1661947754255,
+          "duration" : 641
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "ВВести email",
+      "time" : {
+        "start" : 1661947754255,
+        "stop" : 1661947754802,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#email\") set value(sbl2qu7lo4@test.test)",
+        "time" : {
+          "start" : 1661947754255,
+          "stop" : 1661947754802,
+          "duration" : 547
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "ВВести Фамилия",
+      "time" : {
+        "start" : 1661947754802,
+        "stop" : 1661947754930,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#nameF\") set value(Роман)",
+        "time" : {
+          "start" : 1661947754802,
+          "stop" : 1661947754930,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "ВВести Имя",
+      "time" : {
+        "start" : 1661947754931,
+        "stop" : 1661947755068,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#nameI\") set value(Игнатьев)",
+        "time" : {
+          "start" : 1661947754931,
+          "stop" : 1661947755068,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "ВВести Отчество",
+      "time" : {
+        "start" : 1661947755068,
+        "stop" : 1661947755259,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#nameO\") set value(Быков Герман Максимович)",
+        "time" : {
+          "start" : 1661947755068,
+          "stop" : 1661947755259,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на чекбокс",
+      "time" : {
+        "start" : 1661947755260,
+        "stop" : 1661947755362,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-checkbox-input\") click()",
+        "time" : {
+          "start" : 1661947755260,
+          "stop" : 1661947755362,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Создать личный кабинет",
+      "time" : {
+        "start" : 1661947755363,
+        "stop" : 1661947755461,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".button___StyledAntButton-sc-1vj16k3-1\") click()",
+        "time" : {
+          "start" : 1661947755363,
+          "stop" : 1661947755461,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Создать личный кабинет",
+      "time" : {
+        "start" : 1661947755462,
+        "stop" : 1661947757106,
+        "duration" : 1644
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-modal-content .button___StyledAntButton-sc-1vj16k3-1\") click()",
+        "time" : {
+          "start" : 1661947755462,
+          "stop" : 1661947757106,
+          "duration" : 1644
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 20,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947757106,
+      "stop" : 1661947758064,
+      "duration" : 958
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947757446,
+        "stop" : 1661947758063,
+        "duration" : 617
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a8183da38c567837",
+      "name" : "Last screenshot",
+      "source" : "a8183da38c567837.png",
+      "type" : "image/png",
+      "size" : 152601
+    }, {
+      "uid" : "22a8ba6a9571933",
+      "name" : "Page source",
+      "source" : "22a8ba6a9571933.html",
+      "type" : "text/html",
+      "size" : 1155737
+    }, {
+      "uid" : "9e12d63664bb0038",
+      "name" : "Browser console logs",
+      "source" : "9e12d63664bb0038.txt",
+      "type" : "text/plain",
+      "size" : 614
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.RegistrationTest]/[method:registrationSTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationSTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.RegistrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "bfe8f42e0fe19840.json",
+  "parameterValues" : [ ]
+}

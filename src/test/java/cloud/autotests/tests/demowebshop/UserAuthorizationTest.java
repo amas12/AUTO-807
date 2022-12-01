@@ -220,4 +220,5 @@ public class UserAuthorizationTest extends TestBase {
             sleep(2000);
         });
     }
+
 }

@@ -1,0 +1,472 @@
+{
+  "uid" : "2188dcf2d669c10f",
+  "name" : "Fill in the “E-mail” field with correct data. Delete the data in the “Name” field.",
+  "fullName" : "cloud.autotests.tests.demowebshop.NewRegistration.sendEmptyDataFieldName",
+  "historyId" : "8b6d8b39a8babe74646e245044b9fa83",
+  "time" : {
+    "start" : 1661947183825,
+    "stop" : 1661947199776,
+    "duration" : 15951
+  },
+  "description" : "Заполнить поле “E-mail” корректными данными Стереть данные в поле “Имя”",
+  "descriptionHtml" : "<p>Заполнить поле “E-mail” корректными данными Стереть данные в поле “Имя”</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661946953650,
+      "stop" : 1661946953652,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661946953652,
+      "stop" : 1661946953654,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Заполнить поле “E-mail” корректными данными Стереть данные в поле “Имя”",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем любую страницу сайта",
+      "time" : {
+        "start" : 1661947183825,
+        "stop" : 1661947196610,
+        "duration" : 12785
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947183825,
+          "stop" : 1661947194253,
+          "duration" : 10428
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"clearCookies\") ",
+        "time" : {
+          "start" : 1661947194253,
+          "stop" : 1661947194283,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"refresh\") ",
+        "time" : {
+          "start" : 1661947194283,
+          "stop" : 1661947195610,
+          "duration" : 1327
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "В правом углу шапки сайта кликаем ссылку «Личный кабинет»",
+      "time" : {
+        "start" : 1661947196610,
+        "stop" : 1661947196913,
+        "duration" : 303
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947196610,
+          "stop" : 1661947196913,
+          "duration" : 303
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть модальное окно регистрации”",
+      "time" : {
+        "start" : 1661947196913,
+        "stop" : 1661947197538,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-in___StyledButton2-sc-1ofz83b-16\") click()",
+        "time" : {
+          "start" : 1661947196913,
+          "stop" : 1661947197538,
+          "duration" : 625
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "ВВести email",
+      "time" : {
+        "start" : 1661947197538,
+        "stop" : 1661947198160,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#email\") set value(xlyy3hdzlnntxl@test.test)",
+        "time" : {
+          "start" : 1661947197538,
+          "stop" : 1661947198113,
+          "duration" : 575
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"#email\") clear()",
+        "time" : {
+          "start" : 1661947198113,
+          "stop" : 1661947198160,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "ВВести Фамилия",
+      "time" : {
+        "start" : 1661947198161,
+        "stop" : 1661947198291,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#nameF\") set value(Анна)",
+        "time" : {
+          "start" : 1661947198161,
+          "stop" : 1661947198291,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "ВВести Отчество",
+      "time" : {
+        "start" : 1661947198291,
+        "stop" : 1661947198478,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#nameO\") set value(Фёдор Киселев)",
+        "time" : {
+          "start" : 1661947198291,
+          "stop" : 1661947198478,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на чекбокс",
+      "time" : {
+        "start" : 1661947198478,
+        "stop" : 1661947198588,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-checkbox-input\") click()",
+        "time" : {
+          "start" : 1661947198479,
+          "stop" : 1661947198588,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Создать личный кабинет",
+      "time" : {
+        "start" : 1661947198588,
+        "stop" : 1661947198728,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".button___StyledAntButton-sc-1vj16k3-1\") click()",
+        "time" : {
+          "start" : 1661947198588,
+          "stop" : 1661947198728,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Должна отобразиться форма входа следующего вида",
+      "time" : {
+        "start" : 1661947198728,
+        "stop" : 1661947198771,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-up___StyledCol3-sc-1n48p61-7\") should have(text 'Заполните обязательные поля')",
+        "time" : {
+          "start" : 1661947198728,
+          "stop" : 1661947198771,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 21,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947198771,
+      "stop" : 1661947199776,
+      "duration" : 1005
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947199154,
+        "stop" : 1661947199775,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1fed54171de78e67",
+      "name" : "Last screenshot",
+      "source" : "1fed54171de78e67.png",
+      "type" : "image/png",
+      "size" : 138563
+    }, {
+      "uid" : "7b18fcf8f1122ab3",
+      "name" : "Page source",
+      "source" : "7b18fcf8f1122ab3.html",
+      "type" : "text/html",
+      "size" : 1146366
+    }, {
+      "uid" : "f732ac6f19f97a8f",
+      "name" : "Browser console logs",
+      "source" : "f732ac6f19f97a8f.txt",
+      "type" : "text/plain",
+      "size" : 2441
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.NewRegistration]/[method:sendEmptyDataFieldName()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "sendEmptyDataFieldName"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "2188dcf2d669c10f.json",
+  "parameterValues" : [ ]
+}

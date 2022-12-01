@@ -1,0 +1,277 @@
+{
+  "uid" : "3dc5f9916d2a4dd4",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest.hideShowPasswordTest",
+  "historyId" : "f1d556c7329fde3aacfc3c0bb1a6f102",
+  "time" : {
+    "start" : 1661947805291,
+    "stop" : 1661947831619,
+    "duration" : 26328
+  },
+  "description" : "статус которого = Активен. Ввести в поле “Пароль” верный пароль",
+  "descriptionHtml" : "<p>статус которого = Активен. Ввести в поле “Пароль” верный пароль</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947776351,
+      "stop" : 1661947776352,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947776352,
+      "stop" : 1661947776354,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "статус которого = Активен. Ввести в поле “Пароль” верный пароль",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/",
+      "time" : {
+        "start" : 1661947805292,
+        "stop" : 1661947823661,
+        "duration" : 18369
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947805292,
+          "stop" : 1661947819659,
+          "duration" : 14367
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Личный кабинет ",
+      "time" : {
+        "start" : 1661947823661,
+        "stop" : 1661947825953,
+        "duration" : 2292
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947823661,
+          "stop" : 1661947823943,
+          "duration" : 282
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести пароль",
+      "time" : {
+        "start" : 1661947825953,
+        "stop" : 1661947828544,
+        "duration" : 2591
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#password\") set value(Aa123456)",
+        "time" : {
+          "start" : 1661947825953,
+          "stop" : 1661947826538,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на Войти",
+      "time" : {
+        "start" : 1661947828545,
+        "stop" : 1661947830653,
+        "duration" : 2108
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-input-suffix\") click()",
+        "time" : {
+          "start" : 1661947828545,
+          "stop" : 1661947828637,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947830653,
+      "stop" : 1661947831619,
+      "duration" : 966
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947830969,
+        "stop" : 1661947831618,
+        "duration" : 649
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "58b928586dd87fb3",
+      "name" : "Last screenshot",
+      "source" : "58b928586dd87fb3.png",
+      "type" : "image/png",
+      "size" : 125753
+    }, {
+      "uid" : "cea66248c26602fb",
+      "name" : "Page source",
+      "source" : "cea66248c26602fb.html",
+      "type" : "text/html",
+      "size" : 1159754
+    }, {
+      "uid" : "cbf6aa68d9ce1165",
+      "name" : "Browser console logs",
+      "source" : "cbf6aa68d9ce1165.txt",
+      "type" : "text/plain",
+      "size" : 614
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.UserAuthorizationTest]/[method:hideShowPasswordTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "hideShowPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "3dc5f9916d2a4dd4.json",
+  "parameterValues" : [ ]
+}

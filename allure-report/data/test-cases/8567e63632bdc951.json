@@ -1,0 +1,217 @@
+{
+  "uid" : "8567e63632bdc951",
+  "name" : "Checking that the letters went to the operator",
+  "fullName" : "cloud.autotests.tests.demowebshop.NewRegistration.checkin0gLetterOperator",
+  "historyId" : "8264469beda98a2a5b1462071e0971cc",
+  "time" : {
+    "start" : 1661947287774,
+    "stop" : 1661947312662,
+    "duration" : 24888
+  },
+  "description" : "Проверка письма, которое ушло оператору",
+  "descriptionHtml" : "<p>Проверка письма, которое ушло оператору</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661946953650,
+      "stop" : 1661946953652,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661946953652,
+      "stop" : 1661946953654,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка письма, которое ушло оператору",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/'",
+      "time" : {
+        "start" : 1661947287775,
+        "stop" : 1661947304418,
+        "duration" : 16643
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947287775,
+          "stop" : 1661947298413,
+          "duration" : 10638
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Личный кабинет ",
+      "time" : {
+        "start" : 1661947304419,
+        "stop" : 1661947311721,
+        "duration" : 7302
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledBadge-sc-1gvkxmg-3\") click()",
+        "time" : {
+          "start" : 1661947304419,
+          "stop" : 1661947304710,
+          "duration" : 291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947311721,
+      "stop" : 1661947312662,
+      "duration" : 941
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947312040,
+        "stop" : 1661947312661,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6ef3b2c2e143ad2f",
+      "name" : "Last screenshot",
+      "source" : "6ef3b2c2e143ad2f.png",
+      "type" : "image/png",
+      "size" : 127510
+    }, {
+      "uid" : "191d6d471fa537ed",
+      "name" : "Page source",
+      "source" : "191d6d471fa537ed.html",
+      "type" : "text/html",
+      "size" : 1157246
+    }, {
+      "uid" : "5cc9e6b9605b886",
+      "name" : "Browser console logs",
+      "source" : "5cc9e6b9605b886.txt",
+      "type" : "text/plain",
+      "size" : 614
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.NewRegistration]/[method:checkin0gLetterOperator()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkin0gLetterOperator"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "8567e63632bdc951.json",
+  "parameterValues" : [ ]
+}

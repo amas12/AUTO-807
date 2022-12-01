@@ -1,0 +1,367 @@
+{
+  "uid" : "33ec04b6939efc4c",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest.blockedEmailTest",
+  "historyId" : "ab1e781cdce0f3c90c102cc29aaaea6f",
+  "time" : {
+    "start" : 1661947502193,
+    "stop" : 1661947526899,
+    "duration" : 24706
+  },
+  "description" : "Ввести в поле “E-mail“ адрес электронной почты зарегистрированного на площадке пользователя в статусе =! Активен",
+  "descriptionHtml" : "<p>Ввести в поле “E-mail“ адрес электронной почты зарегистрированного на площадке пользователя в статусе =! Активен</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947454120,
+      "stop" : 1661947454122,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947454122,
+      "stop" : 1661947454124,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Ввести в поле “E-mail“ адрес электронной почты зарегистрированного на площадке пользователя в статусе =! Активен",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/',Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661947502194,
+        "stop" : 1661947513994,
+        "duration" : 11800
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947502194,
+          "stop" : 1661947512942,
+          "duration" : 10748
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"clearCookies\") ",
+        "time" : {
+          "start" : 1661947512942,
+          "stop" : 1661947512967,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"refresh\") ",
+        "time" : {
+          "start" : 1661947512967,
+          "stop" : 1661947512981,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "В правом углу шапки сайта кликаем «Личный кабинет»",
+      "time" : {
+        "start" : 1661947513994,
+        "stop" : 1661947516174,
+        "duration" : 2180
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947513995,
+          "stop" : 1661947516174,
+          "duration" : 2179
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Забыли пароль?",
+      "time" : {
+        "start" : 1661947516174,
+        "stop" : 1661947519251,
+        "duration" : 3077
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-in___StyledButton-sc-1ofz83b-12\") click()",
+        "time" : {
+          "start" : 1661947516174,
+          "stop" : 1661947517240,
+          "duration" : 1066
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести невалидный email",
+      "time" : {
+        "start" : 1661947519251,
+        "stop" : 1661947521803,
+        "duration" : 2552
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#email\") set value(1w0zest@test.test)",
+        "time" : {
+          "start" : 1661947519251,
+          "stop" : 1661947519791,
+          "duration" : 540
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести невалидный email",
+      "time" : {
+        "start" : 1661947521803,
+        "stop" : 1661947523927,
+        "duration" : 2124
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by text: ВОССТАНОВИТЬ ПАРОЛЬ\") click()",
+        "time" : {
+          "start" : 1661947521804,
+          "stop" : 1661947521920,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Получить результат:  Должна открыться форма восстановления пароля:",
+      "time" : {
+        "start" : 1661947523927,
+        "stop" : 1661947525972,
+        "duration" : 2045
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".forgot-password___StyledCol4-sc-aspcrp-8\") should have(text 'Восстановление пароля для данного e-mail невозможно')",
+        "time" : {
+          "start" : 1661947523927,
+          "stop" : 1661947523970,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 14,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947525972,
+      "stop" : 1661947526899,
+      "duration" : 927
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947526277,
+        "stop" : 1661947526898,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e70a98634e7fa111",
+      "name" : "Last screenshot",
+      "source" : "e70a98634e7fa111.png",
+      "type" : "image/png",
+      "size" : 129310
+    }, {
+      "uid" : "78cdadcb94fd7c8e",
+      "name" : "Page source",
+      "source" : "78cdadcb94fd7c8e.html",
+      "type" : "text/html",
+      "size" : 1156502
+    }, {
+      "uid" : "ce0d14310d1e4922",
+      "name" : "Browser console logs",
+      "source" : "ce0d14310d1e4922.txt",
+      "type" : "text/plain",
+      "size" : 3235
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.OrganizationProfileTest]/[method:blockedEmailTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "blockedEmailTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "33ec04b6939efc4c.json",
+  "parameterValues" : [ ]
+}

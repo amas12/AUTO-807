@@ -24,7 +24,7 @@ ext {
 
 allure {
     report {
-        version.set("2.17.2")
+        version.set("4.2.1")
     }
     adapter {
         autoconfigure.set(true)
@@ -62,11 +62,13 @@ dependencies {
     annotationProcessor "org.projectlombok:lombok:$lombokVersion"
     testCompileOnly "org.projectlombok:lombok:$lombokVersion"
     testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
+
 }
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
 
 
 

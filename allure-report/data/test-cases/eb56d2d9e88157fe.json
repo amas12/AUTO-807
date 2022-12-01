@@ -1,0 +1,277 @@
+{
+  "uid" : "eb56d2d9e88157fe",
+  "name" : "Opening a login form",
+  "fullName" : "cloud.autotests.tests.demowebshop.NewRegistration.openingLoginForm",
+  "historyId" : "c3e00b52814db362e228137c59e37b60",
+  "time" : {
+    "start" : 1661947393663,
+    "stop" : 1661947406772,
+    "duration" : 13109
+  },
+  "description" : "Открытие формы входа ",
+  "descriptionHtml" : "<p>Открытие формы входа</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661946953650,
+      "stop" : 1661946953652,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661946953652,
+      "stop" : 1661946953654,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Открытие формы входа ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661947393663,
+        "stop" : 1661947404272,
+        "duration" : 10609
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947393664,
+          "stop" : 1661947403210,
+          "duration" : 9546
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"clearCookies\") ",
+        "time" : {
+          "start" : 1661947403210,
+          "stop" : 1661947403248,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"refresh\") ",
+        "time" : {
+          "start" : 1661947403248,
+          "stop" : 1661947404272,
+          "duration" : 1024
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "В правом углу шапки сайта кликаем ссылку «Личный кабинет»",
+      "time" : {
+        "start" : 1661947404272,
+        "stop" : 1661947404785,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947404273,
+          "stop" : 1661947404785,
+          "duration" : 512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Должна отобразиться форма входа следующего вида",
+      "time" : {
+        "start" : 1661947404785,
+        "stop" : 1661947405792,
+        "duration" : 1007
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-popover-content\") should have(text 'Вход')",
+        "time" : {
+          "start" : 1661947404785,
+          "stop" : 1661947405792,
+          "duration" : 1007
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947405792,
+      "stop" : 1661947406772,
+      "duration" : 980
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947406146,
+        "stop" : 1661947406771,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "aca367aad7f99d95",
+      "name" : "Last screenshot",
+      "source" : "aca367aad7f99d95.png",
+      "type" : "image/png",
+      "size" : 123707
+    }, {
+      "uid" : "c1b189c491b1f928",
+      "name" : "Page source",
+      "source" : "c1b189c491b1f928.html",
+      "type" : "text/html",
+      "size" : 1143603
+    }, {
+      "uid" : "9fe40a663cb96459",
+      "name" : "Browser console logs",
+      "source" : "9fe40a663cb96459.txt",
+      "type" : "text/plain",
+      "size" : 2441
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.NewRegistration]/[method:openingLoginForm()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "openingLoginForm"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.NewRegistration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "eb56d2d9e88157fe.json",
+  "parameterValues" : [ ]
+}

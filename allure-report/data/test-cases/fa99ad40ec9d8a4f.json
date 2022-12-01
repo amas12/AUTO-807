@@ -1,0 +1,337 @@
+{
+  "uid" : "fa99ad40ec9d8a4f",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest.incorrectPasswordTest",
+  "historyId" : "b168722b0f07d71474fb62c323d9b32c",
+  "time" : {
+    "start" : 1661947831626,
+    "stop" : 1661947856552,
+    "duration" : 24926
+  },
+  "description" : "Ввести в поле “E-mail“ почтовый адрес пользователя, зарегистрированного на площадке, статус которого = Активен. Ввести в поле “Пароль” неверный пароль для данного пользователя.",
+  "descriptionHtml" : "<p>Ввести в поле “E-mail“ почтовый адрес пользователя, зарегистрированного на площадке, статус которого = Активен. Ввести в поле “Пароль” неверный пароль для данного пользователя.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947776351,
+      "stop" : 1661947776352,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947776352,
+      "stop" : 1661947776354,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Ввести в поле “E-mail“ почтовый адрес пользователя, зарегистрированного на площадке, статус которого = Активен. Ввести в поле “Пароль” неверный пароль для данного пользователя.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/",
+      "time" : {
+        "start" : 1661947831627,
+        "stop" : 1661947844435,
+        "duration" : 12808
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947831627,
+          "stop" : 1661947840427,
+          "duration" : 8800
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Личный кабинет ",
+      "time" : {
+        "start" : 1661947844435,
+        "stop" : 1661947846739,
+        "duration" : 2304
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947844435,
+          "stop" : 1661947844735,
+          "duration" : 300
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести в поле “E-mail“ почтовый адрес пользователя, который не зарегистрирован на площадке",
+      "time" : {
+        "start" : 1661947846739,
+        "stop" : 1661947849295,
+        "duration" : 2556
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#email\") set value(dev1@test.test)",
+        "time" : {
+          "start" : 1661947846740,
+          "stop" : 1661947847294,
+          "duration" : 554
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести пароль",
+      "time" : {
+        "start" : 1661947849295,
+        "stop" : 1661947851451,
+        "duration" : 2156
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#password\") set value(Aa1223456)",
+        "time" : {
+          "start" : 1661947849296,
+          "stop" : 1661947849448,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на Войти",
+      "time" : {
+        "start" : 1661947851451,
+        "stop" : 1661947853561,
+        "duration" : 2110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".button___StyledAntButton-sc-1vj16k3-1\") click()",
+        "time" : {
+          "start" : 1661947851451,
+          "stop" : 1661947851561,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Получить результат",
+      "time" : {
+        "start" : 1661947853561,
+        "stop" : 1661947855616,
+        "duration" : 2055
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-in___StyledCol-sc-1ofz83b-5\") should have(text 'Неверный логин или пароль')",
+        "time" : {
+          "start" : 1661947853561,
+          "stop" : 1661947853610,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 12,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947855616,
+      "stop" : 1661947856552,
+      "duration" : 936
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947855930,
+        "stop" : 1661947856552,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a1dc505f0d3a2aef",
+      "name" : "Last screenshot",
+      "source" : "a1dc505f0d3a2aef.png",
+      "type" : "image/png",
+      "size" : 127982
+    }, {
+      "uid" : "7b13a44e48d3751e",
+      "name" : "Page source",
+      "source" : "7b13a44e48d3751e.html",
+      "type" : "text/html",
+      "size" : 1159801
+    }, {
+      "uid" : "4bf5a59c4efc017e",
+      "name" : "Browser console logs",
+      "source" : "4bf5a59c4efc017e.txt",
+      "type" : "text/plain",
+      "size" : 767
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.UserAuthorizationTest]/[method:incorrectPasswordTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "incorrectPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "fa99ad40ec9d8a4f.json",
+  "parameterValues" : [ ]
+}

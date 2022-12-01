@@ -30,7 +30,6 @@ public class RegistrationTest extends TestBase {
             open("https://stage.onlc.market/");
             clearBrowserCookies();
             refresh();
-            sleep(1000);
         });
         step("В правом углу шапки сайта кликаем ссылку «Личный кабинет", () -> {
             $(".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6").click();
@@ -43,15 +42,12 @@ public class RegistrationTest extends TestBase {
     void registrationSTest() {
         step("Open 'https://stage.onlc.market/", () -> {
             open("https://stage.onlc.market/");
-            sleep(4000);
         });
         step("Нажать на кнопку Личный кабинет ", () -> {
             $(".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6").click();
-            sleep(2000);
         });
         step("Нажать на кнопку Регистрация", () -> {
             $(".sign-in___StyledButton2-sc-1ofz83b-16").click();
-            sleep(2000);
         });
         step("ВВести email", () -> {
             $("#email").setValue(email + "@test.test");
@@ -70,7 +66,6 @@ public class RegistrationTest extends TestBase {
         });
         step("Нажать на кнопку Создать личный кабинет", () -> {
             $(".button___StyledAntButton-sc-1vj16k3-1").click();
-            sleep(3000);
         });
         step("Нажать на кнопку Создать личный кабинет", () -> {
             $(".ant-modal-content .button___StyledAntButton-sc-1vj16k3-1").click();

@@ -1,0 +1,247 @@
+{
+  "uid" : "5a5f8dab815dbc92",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest.openingLoginForm",
+  "historyId" : "d54ae8883601c91cc9e8d856e6457584",
+  "time" : {
+    "start" : 1661947913685,
+    "stop" : 1661947928675,
+    "duration" : 14990
+  },
+  "description" : "Открытие формы авторизации по E-mail ",
+  "descriptionHtml" : "<p>Открытие формы авторизации по E-mail</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947776351,
+      "stop" : 1661947776352,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947776352,
+      "stop" : 1661947776354,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Открытие формы авторизации по E-mail ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/',Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661947913685,
+        "stop" : 1661947927320,
+        "duration" : 13635
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947913686,
+          "stop" : 1661947923858,
+          "duration" : 10172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"clearCookies\") ",
+        "time" : {
+          "start" : 1661947923859,
+          "stop" : 1661947923890,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"refresh\") ",
+        "time" : {
+          "start" : 1661947923890,
+          "stop" : 1661947926311,
+          "duration" : 2421
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "В правом углу шапки сайта кликаем ссылку «Личный кабинет",
+      "time" : {
+        "start" : 1661947927320,
+        "stop" : 1661947927639,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947927320,
+          "stop" : 1661947927639,
+          "duration" : 319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947927639,
+      "stop" : 1661947928675,
+      "duration" : 1036
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947928050,
+        "stop" : 1661947928674,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a8cd02988f367b36",
+      "name" : "Last screenshot",
+      "source" : "a8cd02988f367b36.png",
+      "type" : "image/png",
+      "size" : 136762
+    }, {
+      "uid" : "25df5dd4e83eeeaf",
+      "name" : "Page source",
+      "source" : "25df5dd4e83eeeaf.html",
+      "type" : "text/html",
+      "size" : 1143648
+    }, {
+      "uid" : "e6c1e6f661a03d14",
+      "name" : "Browser console logs",
+      "source" : "e6c1e6f661a03d14.txt",
+      "type" : "text/plain",
+      "size" : 2441
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.UserAuthorizationTest]/[method:openingLoginForm()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openingLoginForm"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.UserAuthorizationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "5a5f8dab815dbc92.json",
+  "parameterValues" : [ ]
+}

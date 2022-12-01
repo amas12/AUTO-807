@@ -1,0 +1,10 @@
+[2022-08-31T15:07:42+0300] [SEVERE] https://stage.onlc.market/api/user_profile - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:07:42+0300] [SEVERE] https://stage.onlc.market/api/user_profile/show - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:07:46+0300] [SEVERE] https://mc.yandex.com/sync_cookie_image_decide?token=9747.cy5QH-kAVPCIA7sO8ev5zxIfRm65WrxbR5dY7bndhaN9_1UGJtVTWCBiZ-Z95HnjcjgB3mSjbo1BpsXjmcbYCw%2C%2C.v1wa7wPAJL3Nkmheezhqrw25IS0%2C - Failed to load resource: the server responded with a status of 400 ()
+[2022-08-31T15:07:50+0300] [SEVERE] https://stage.onlc.market/api/user_profile - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:07:50+0300] [SEVERE] https://stage.onlc.market/api/user_profile/show - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:07:54+0300] [SEVERE] https://stage.onlc.market/api/reset-password - Failed to load resource: the server responded with a status of 400 (Bad Request)
+[2022-08-31T15:07:54+0300] [SEVERE] https://stage.onlc.market/_next/static/chunks/bebf29945ebc962f45322496c3ccf4a1cccd9334.13844db1c3f36952bf99.js 0:38603 Error: Request failed with status code 400
+    at LYNF.e.exports (https://stage.onlc.market/_next/static/chunks/ce7b9dbbede611de8be8addd16b72f118f417500.e6b931e014996c1b7503.js:1:3337)
+    at Rn+g.e.exports (https://stage.onlc.market/_next/static/chunks/ce7b9dbbede611de8be8addd16b72f118f417500.e6b931e014996c1b7503.js:1:5328)
+    at l.onreadystatechange (https://stage.onlc.market/_next/static/chunks/ce7b9dbbede611de8be8addd16b72f118f417500.e6b931e014996c1b7503.js:1:9249)

@@ -1,0 +1,1164 @@
+{
+  "7e343e343dd743e7c7ccf3825c6e22cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "962eb8de9f9afa4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947885919,
+        "stop" : 1661947913677,
+        "duration" : 27758
+      }
+    } ]
+  },
+  "a629ee0dc4236c12d9568cfbd232066c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ba58e99c18298a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947160225,
+        "stop" : 1661947183814,
+        "duration" : 23589
+      }
+    } ]
+  },
+  "f6b0fc57014d4c2e884169796dfba12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9ccd1fc42266c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661948135222,
+        "stop" : 1661948145759,
+        "duration" : 10537
+      }
+    } ]
+  },
+  "88dd3ed24c31eaf64da8e76fe2fc5413" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "715d23182619cd76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947264826,
+        "stop" : 1661947287761,
+        "duration" : 22935
+      }
+    } ]
+  },
+  "f3b5d83633b25c4440afb41b52b1f35b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b475c302e47cec9",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.ant-empty-description}\r\nExpected: text 'По Вашему запросу ничего не найдено. Задайте другие параметры поиска.'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948164921.20.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948164921.20.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ant-empty-description\"}",
+      "time" : {
+        "start" : 1661948145771,
+        "stop" : 1661948166406,
+        "duration" : 20635
+      }
+    } ]
+  },
+  "f1d556c7329fde3aacfc3c0bb1a6f102" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dc5f9916d2a4dd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947805291,
+        "stop" : 1661947831619,
+        "duration" : 26328
+      }
+    } ]
+  },
+  "20332499b8c975471c074ce9428428f5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce65b800e617ba28",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.top___StyledButton-sc-nyevam-7}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946951991.1.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946951991.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".top___StyledButton-sc-nyevam-7\"}",
+      "time" : {
+        "start" : 1661946913720,
+        "stop" : 1661946953637,
+        "duration" : 39917
+      }
+    } ]
+  },
+  "d3c0c85d966b91d82686babd4eb90ee3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b4ba97b6ea2ffa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947571392,
+        "stop" : 1661947588589,
+        "duration" : 17197
+      }
+    } ]
+  },
+  "fc1af50cc7fb1dfa800b94d023b9cc18" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11bf04f2c6faea66",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Маркус Валентинович Гурбууу' {.UserHeaderButton___StyledParagraph-sc-6zbpjc-0}\r\nElement: '<div class=\"ant-typography ant-typography-ellipsis ant-typography-ellipsis-single-line UserHeaderButton___StyledParagraph-sc-6zbpjc-0 bhTiwc\">Маркус FF Максимов</div>'\r\nActual value: Маркус FF Максимов\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947959902.16.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947959902.16.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1661947928682,
+        "stop" : 1661947961793,
+        "duration" : 33111
+      }
+    } ]
+  },
+  "36996fcacedeef88b93e0d115c9b5969" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa26c7fb7198273d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947704906,
+        "stop" : 1661947726368,
+        "duration" : 21462
+      }
+    } ]
+  },
+  "86360032dc208c7130fb0bd83cf2c15d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "507ff10d7b7c04ae",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947335356.10.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947335356.10.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "time" : {
+        "start" : 1661947312670,
+        "stop" : 1661947336910,
+        "duration" : 24240
+      }
+    } ]
+  },
+  "78704417f3f613207ce137e7d4e0af55" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54ea25bc9ec04bde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947990143,
+        "stop" : 1661948000170,
+        "duration" : 10027
+      }
+    } ]
+  },
+  "f69b908cdd45c4fc5e4bfb2022aa840d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5d7a30abaa70ff8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.query___StyledButton-sc-12ah1wk-0}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948082831.18.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948082831.18.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".query___StyledButton-sc-12ah1wk-0\"}",
+      "time" : {
+        "start" : 1661948045962,
+        "stop" : 1661948084416,
+        "duration" : 38454
+      }
+    } ]
+  },
+  "f2ae89251b0ea64d3d4819a52405fdf6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21ea0c239ee18d0d",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Ссылка не действительна' {.ant-modal-content}\r\nElement: '<div class=\"ant-modal-content\">Ошибка\nВремя действия ссылки истекло. Для активации профиля необходимо обратиться к администратору организации в Системе для повторной отправки ссылки для подтверждения\nОК</div>'\r\nActual value: Ошибка\nВремя действия ссылки истекло. Для активации профиля необходимо обратиться к администратору организации в Системе для повторной отправки ссылки для подтверждения\nОК\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946992423.3.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946992423.3.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1661946971188,
+        "stop" : 1661946994067,
+        "duration" : 22879
+      }
+    } ]
+  },
+  "5431d8a4e62ca3b794bdbe69006f5d67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18849f674c2a06fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661946828851,
+        "stop" : 1661946874980,
+        "duration" : 46129
+      }
+    } ]
+  },
+  "3f94c7859ccc94b217492fa93908558" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "637d24b6a0c6b01b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.sign-up___StyledCol3-sc-xixosh-7}\r\nExpected: text 'Заполните обязательные поля'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947263183.9.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947263183.9.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sign-up___StyledCol3-sc-xixosh-7\"}",
+      "time" : {
+        "start" : 1661947240528,
+        "stop" : 1661947264806,
+        "duration" : 24278
+      }
+    } ]
+  },
+  "8264469beda98a2a5b1462071e0971cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8567e63632bdc951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947287774,
+        "stop" : 1661947312662,
+        "duration" : 24888
+      }
+    } ]
+  },
+  "3c071759e4758269707f06034024ec8c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b98c435d0994939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947068434,
+        "stop" : 1661947089143,
+        "duration" : 20709
+      }
+    } ]
+  },
+  "31799f7a857a72fc207f1aed410574a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f86d25237fef008f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661948252225,
+        "stop" : 1661948296282,
+        "duration" : 44057
+      }
+    } ]
+  },
+  "fa51d11c95655a070036e5e0a6bbd440" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "675b375bb505d310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947856563,
+        "stop" : 1661947885912,
+        "duration" : 29349
+      }
+    } ]
+  },
+  "b168722b0f07d71474fb62c323d9b32c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa99ad40ec9d8a4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947831626,
+        "stop" : 1661947856552,
+        "duration" : 24926
+      }
+    } ]
+  },
+  "c3e00b52814db362e228137c59e37b60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb56d2d9e88157fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947393663,
+        "stop" : 1661947406772,
+        "duration" : 13109
+      }
+    } ]
+  },
+  "dc591bf09ad3d073655b73296d61c60e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c476932410edcb03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947985581,
+        "stop" : 1661947990127,
+        "duration" : 4546
+      }
+    } ]
+  },
+  "2241df647f6d65ed871813b6e723a5b8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60356ffac07d0b19",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947066839.5.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947066839.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "time" : {
+        "start" : 1661947047788,
+        "stop" : 1661947068421,
+        "duration" : 20633
+      }
+    } ]
+  },
+  "2b8445e0fe1a778299efa3241a023520" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfe8f42e0fe19840",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947743571,
+        "stop" : 1661947758064,
+        "duration" : 14493
+      }
+    } ]
+  },
+  "984200a917b3dfe8568f7d0d76abdc15" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57ff11996b082ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947675869,
+        "stop" : 1661947691998,
+        "duration" : 16129
+      }
+    } ]
+  },
+  "ca8a5e3858ea28381401da6909a4671d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5ef509f898ea3d5",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.forgot-password___StyledCol4-sc-aspcrp-8}\r\nExpected: text 'Некорректное значение e-mail'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947569792.14.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947569792.14.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".forgot-password___StyledCol4-sc-aspcrp-8\"}",
+      "time" : {
+        "start" : 1661947546512,
+        "stop" : 1661947571383,
+        "duration" : 24871
+      }
+    } ]
+  },
+  "440aef5d9f74ca633235a92f25e403c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b80f3a875626e550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947692005,
+        "stop" : 1661947704897,
+        "duration" : 12892
+      }
+    } ]
+  },
+  "1fec0ecee71a4e004795343ba7d3f6d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4dcf121a23b32fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661948166416,
+        "stop" : 1661948179023,
+        "duration" : 12607
+      }
+    } ]
+  },
+  "42af6ab077b6064bf2b5a9a84200e15b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23354f4dbd647f53",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.top___StyledButton-sc-nyevam-7}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946911993.0.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946911993.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".top___StyledButton-sc-nyevam-7\"}",
+      "time" : {
+        "start" : 1661946875084,
+        "stop" : 1661946913696,
+        "duration" : 38612
+      }
+    } ]
+  },
+  "5f95891a55b39e90d8ed6e7fe6ea5263" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1133717613087d8e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947429376.13.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947429376.13.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "time" : {
+        "start" : 1661947406784,
+        "stop" : 1661947430959,
+        "duration" : 24175
+      }
+    } ]
+  },
+  "c3648824daf1fa49cfc039b78f6ee341" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b45731118e7b7a3c",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947354307.11.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947354307.11.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "time" : {
+        "start" : 1661947336931,
+        "stop" : 1661947355925,
+        "duration" : 18994
+      }
+    } ]
+  },
+  "2ccb6136313f29d3d4b0e990d9d475b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6fc71a7d616dbc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947028175,
+        "stop" : 1661947047779,
+        "duration" : 19604
+      }
+    } ]
+  },
+  "8250cbe3a78148006c35927a21878edc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "724bf50ab0449107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947961806,
+        "stop" : 1661947985568,
+        "duration" : 23762
+      }
+    } ]
+  },
+  "a1bebfa3d5069ac5559d38566a46e265" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d02f38165146288b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947638490,
+        "stop" : 1661947655948,
+        "duration" : 17458
+      }
+    } ]
+  },
+  "5a971d6a17c4399bd9df31d936ef257e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36544a8fa09d018d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947758082,
+        "stop" : 1661947776347,
+        "duration" : 18265
+      }
+    } ]
+  },
+  "af5e3ea80a7e0759ec8373a3434ecb6b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3046dd483c1cf3b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.sign-in___StyledButton2-sc-nh5068-16}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946969387.2.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946969387.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sign-in___StyledButton2-sc-nh5068-16\"}",
+      "time" : {
+        "start" : 1661946953664,
+        "stop" : 1661946971171,
+        "duration" : 17507
+      }
+    } ]
+  },
+  "732c4baa972e54d70f3a48e4c77a5446" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24b0410f75c035a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947355939,
+        "stop" : 1661947374757,
+        "duration" : 18818
+      }
+    } ]
+  },
+  "ec5a8b573cb1d69240eaab1a760d4e8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff88ac0630245fc",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947392069.12.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947392069.12.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "time" : {
+        "start" : 1661947374772,
+        "stop" : 1661947393653,
+        "duration" : 18881
+      }
+    } ]
+  },
+  "fec29b610f41a559beb18900bd422dad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b919ab8092b95e0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947454132,
+        "stop" : 1661947479060,
+        "duration" : 24928
+      }
+    } ]
+  },
+  "ed88d3573a45647acdd5bc832c8696bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecc8f35739749ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947479069,
+        "stop" : 1661947502185,
+        "duration" : 23116
+      }
+    } ]
+  },
+  "8b6d8b39a8babe74646e245044b9fa83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2188dcf2d669c10f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947183825,
+        "stop" : 1661947199776,
+        "duration" : 15951
+      }
+    } ]
+  },
+  "6b4103cf6a5a1c05b2cefbf58dba3e5a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1695c8d48ffd0d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947776359,
+        "stop" : 1661947805283,
+        "duration" : 28924
+      }
+    } ]
+  },
+  "4c5798580646f868dac70a99ad133966" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b20571eeec354365",
+      "status" : "failed",
+      "statusDetails" : "Element should have text 'Регистрация пользователя в Магазине Малых Закупок ONLINECONTRACT' {.ant-modal-title}\r\nElement: '<div class=\"ant-modal-title\" id=\"rcDialogTitle0\">Регистрация пользователя в Магазине Малых Закупок ONLCMARKET</div>'\r\nActual value: Регистрация пользователя в Магазине Малых Закупок ONLCMARKET\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947158552.6.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947158552.6.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1661947089159,
+        "stop" : 1661947160198,
+        "duration" : 71039
+      }
+    } ]
+  },
+  "45adce077588422744a9508d911ed8a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20127c5b83f92b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947430975,
+        "stop" : 1661947454113,
+        "duration" : 23138
+      }
+    } ]
+  },
+  "d56d6cdaca798aeaa8dcf653dfaf9fca" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efb9d2fafaab46e6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.card___StyledTooltipParagraph-sc-eydu8b-5}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948044365.17.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948044365.17.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".card___StyledTooltipParagraph-sc-eydu8b-5\"}",
+      "time" : {
+        "start" : 1661948018074,
+        "stop" : 1661948045952,
+        "duration" : 27878
+      }
+    } ]
+  },
+  "1138180da72d197c84aadc821f9cff0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6602d1361741dc2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661948084424,
+        "stop" : 1661948099017,
+        "duration" : 14593
+      }
+    } ]
+  },
+  "9d862a3bcaef089df77c05a50e36d4ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6b8a03ed1474b1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661948000178,
+        "stop" : 1661948018067,
+        "duration" : 17889
+      }
+    } ]
+  },
+  "55aa547dcd40ce13fcdd58b1478aab6a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9cf9ca016f606a4d",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.auth___StyledCol-sc-19px8wx-0}\r\nExpected: text 'Время действия ссылки истекло. Для активации профиля необходимо обратиться к администратору организации в Системе для повторной отправки ссылки для подтверждения'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947026449.4.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947026449.4.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".auth___StyledCol-sc-19px8wx-0\"}",
+      "time" : {
+        "start" : 1661947011893,
+        "stop" : 1661947028160,
+        "duration" : 16267
+      }
+    } ]
+  },
+  "d54ae8883601c91cc9e8d856e6457584" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a5f8dab815dbc92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947913685,
+        "stop" : 1661947928675,
+        "duration" : 14990
+      }
+    } ]
+  },
+  "9c9fc6b23bde3f1807c988173370f640" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86116debe77b4f84",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible or transparent: visible or have css value opacity=0 {.button___StyledAntButton-sc-1vj16k3-1}\r\nElement: '<button class=\"ant-btn ant-btn-additional ant-btn-lg ant-btn-icon-only button___StyledAntButton-sc-1vj16k3-1 bmsaTT OfferCompareAddButton___StyledButton-sc-1gnmu7t-1 kdCIvz\" disabled type=\"button\" value displayed:false></button>'\r\nActual value: visible:false, 1\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947238915.8.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947238915.8.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1661947216402,
+        "stop" : 1661947240516,
+        "duration" : 24114
+      }
+    } ]
+  },
+  "7f237018500a85a31dc6a8770e2d22f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bed4b43e7a11514b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.sign-in___StyledButton2-sc-1ofz83b-16}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947214846.7.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947214846.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sign-in___StyledButton2-sc-1ofz83b-16\"}",
+      "time" : {
+        "start" : 1661947199786,
+        "stop" : 1661947216384,
+        "duration" : 16598
+      }
+    } ]
+  },
+  "ac4f30aaf32d43c2966456c6af67c1ff" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15911c130381a012",
+      "status" : "failed",
+      "statusDetails" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}",
+      "time" : {
+        "start" : 1661948179030,
+        "stop" : 1661948252214,
+        "duration" : 73184
+      }
+    } ]
+  },
+  "ab1e781cdce0f3c90c102cc29aaaea6f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33ec04b6939efc4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947502193,
+        "stop" : 1661947526899,
+        "duration" : 24706
+      }
+    } ]
+  },
+  "c460113a17b8c18d222579a7ddfde941" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31eff8b2d3e164bf",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.forward___StyledButton-sc-1093ize-0}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947636844.15.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947636844.15.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".forward___StyledButton-sc-1093ize-0\"}",
+      "time" : {
+        "start" : 1661947588604,
+        "stop" : 1661947638474,
+        "duration" : 49870
+      }
+    } ]
+  },
+  "ab631b54d89732fe171d30843a95e69e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca9f33dd7926748d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947526909,
+        "stop" : 1661947546504,
+        "duration" : 19595
+      }
+    } ]
+  },
+  "bd67074fa1ed2d5613543db7ca32f616" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9cd1716594abf570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947655955,
+        "stop" : 1661947675859,
+        "duration" : 19904
+      }
+    } ]
+  },
+  "8ba9bb041628a348d42fb78ee6f07bd7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58a3ed6c37dfa93b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661946994083,
+        "stop" : 1661947011867,
+        "duration" : 17784
+      }
+    } ]
+  },
+  "77ee651bd82014db7f02db2eafc2a5a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11cb6c3dd5989a56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661947726379,
+        "stop" : 1661947743556,
+        "duration" : 17177
+      }
+    } ]
+  },
+  "1dc345710c774a1b6e4ceb59eea9455c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21e201b3b0be654",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.card___StyledTooltipParagraph-sc-eydu8b-5}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948133512.19.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948133512.19.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".card___StyledTooltipParagraph-sc-eydu8b-5\"}",
+      "time" : {
+        "start" : 1661948099024,
+        "stop" : 1661948135204,
+        "duration" : 36180
+      }
+    } ]
+  }
+}

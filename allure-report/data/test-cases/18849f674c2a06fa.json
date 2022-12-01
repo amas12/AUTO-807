@@ -1,0 +1,400 @@
+{
+  "uid" : "18849f674c2a06fa",
+  "name" : "list of offers of the current organization.",
+  "fullName" : "cloud.autotests.tests.demowebshop.MyOffersTest.listOffersOrganizationTest",
+  "historyId" : "5431d8a4e62ca3b794bdbe69006f5d67",
+  "time" : {
+    "start" : 1661946828851,
+    "stop" : 1661946874980,
+    "duration" : 46129
+  },
+  "description" : "Просмотр списка оферт текущей организации.",
+  "descriptionHtml" : "<p>Просмотр списка оферт текущей организации.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661946827572,
+      "stop" : 1661946827771,
+      "duration" : 199
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661946827772,
+      "stop" : 1661946828619,
+      "duration" : 847
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Просмотр списка оферт текущей организации.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/'",
+      "time" : {
+        "start" : 1661946828860,
+        "stop" : 1661946854725,
+        "duration" : 25865
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661946828947,
+          "stop" : 1661946851721,
+          "duration" : 22774
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Личный кабинет ",
+      "time" : {
+        "start" : 1661946854725,
+        "stop" : 1661946857145,
+        "duration" : 2420
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661946854777,
+          "stop" : 1661946855134,
+          "duration" : 357
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести email",
+      "time" : {
+        "start" : 1661946857145,
+        "stop" : 1661946859724,
+        "duration" : 2579
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#email\") set value(dev1@test.test)",
+        "time" : {
+          "start" : 1661946857145,
+          "stop" : 1661946857719,
+          "duration" : 574
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести пароль",
+      "time" : {
+        "start" : 1661946859724,
+        "stop" : 1661946861889,
+        "duration" : 2165
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#password\") set value(Aa123456)",
+        "time" : {
+          "start" : 1661946859724,
+          "stop" : 1661946859873,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на Войти",
+      "time" : {
+        "start" : 1661946861889,
+        "stop" : 1661946864034,
+        "duration" : 2145
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".button___StyledAntButton-sc-1vj16k3-1\") click()",
+        "time" : {
+          "start" : 1661946861890,
+          "stop" : 1661946862020,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на меню",
+      "time" : {
+        "start" : 1661946864034,
+        "stop" : 1661946864269,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661946864034,
+          "stop" : 1661946864269,
+          "duration" : 235
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать выбрать мои оферты",
+      "time" : {
+        "start" : 1661946864270,
+        "stop" : 1661946864805,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"by text: Мои оферты\") click()",
+        "time" : {
+          "start" : 1661946864276,
+          "stop" : 1661946864805,
+          "duration" : 529
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Фильтр. Наименование списка оферт",
+      "time" : {
+        "start" : 1661946864805,
+        "stop" : 1661946873926,
+        "duration" : 9121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-form-item-control-input\") click()",
+        "time" : {
+          "start" : 1661946864805,
+          "stop" : 1661946864915,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661946873929,
+      "stop" : 1661946874971,
+      "duration" : 1042
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661946874302,
+        "stop" : 1661946874969,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ad9cb4bec8527905",
+      "name" : "Last screenshot",
+      "source" : "ad9cb4bec8527905.png",
+      "type" : "image/png",
+      "size" : 116329
+    }, {
+      "uid" : "5633970549461400",
+      "name" : "Page source",
+      "source" : "5633970549461400.html",
+      "type" : "text/html",
+      "size" : 1240726
+    }, {
+      "uid" : "6596ca19cd3f5fbd",
+      "name" : "Browser console logs",
+      "source" : "6596ca19cd3f5fbd.txt",
+      "type" : "text/plain",
+      "size" : 614
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.MyOffersTest]/[method:listOffersOrganizationTest()]"
+  }, {
+    "name" : "story",
+    "value" : "Login tests"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.MyOffersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.MyOffersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "listOffersOrganizationTest"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.MyOffersTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "18849f674c2a06fa.json",
+  "parameterValues" : [ ]
+}

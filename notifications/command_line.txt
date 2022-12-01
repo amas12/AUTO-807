@@ -5,6 +5,18 @@ java  \
 "-DreportLink=https://no.link/" \
 "-Dcomm=Any comment here" \
 "-Dconfig.file=./notifications/telegram_config_local.json" \
--jar ./notifications/allure-notifications-3.1.2.jar
+-jar ./notifications/allure-notifications-4.2.1.jar
 
  java "-DprojectName=Local run" "-Denv=https://dev1.onlc.market/" "-DreportLink=https://no.link/" "-Dcomm=Any comment here" "-Dconfig.file=./notifications/telegram_config_local.json" -jar ./notifications/allure-notifications-3.1.2.jar
+
+########### LOCAL SLACK
+java  \
+"main=Messenger discord" \
+"-DprojectName=Local run" \
+"-Denv=https://dev1.onlc.market" \
+"-DreportLink=https://no.link/" \
+"-Dcomm=Any comment here" \
+"-Dconfig.file=./notifications/discord_config_local.json" \
+-jar ./notifications/allure-notifications-3.1.2.jar
+
+ java "-DprojectName=Local run" "-Denv=https://dev1.onlc.market/" "-DreportLink=https://no.link/" "-Dcomm=Any comment here" "-Dconfig.file=./notifications/discord_config_local.json" -jar ./notifications/allure-notifications-3.1.2.jar

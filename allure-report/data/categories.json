@@ -1,0 +1,471 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {.top___StyledButton-sc-nyevam-7}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946911993.0.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946911993.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".top___StyledButton-sc-nyevam-7\"}",
+      "children" : [ {
+        "name" : "Create an offer",
+        "uid" : "23354f4dbd647f53",
+        "parentUid" : "1889ea9239ddcced3c8a894c77696bed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661946875084,
+          "stop" : 1661946913696,
+          "duration" : 38612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1889ea9239ddcced3c8a894c77696bed"
+    }, {
+      "name" : "Element not found {.top___StyledButton-sc-nyevam-7}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946951991.1.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946951991.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".top___StyledButton-sc-nyevam-7\"}",
+      "children" : [ {
+        "name" : "Create an offer",
+        "uid" : "ce65b800e617ba28",
+        "parentUid" : "4f3d7ee284c3e5f1ff9168f491182a95",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661946913720,
+          "stop" : 1661946953637,
+          "duration" : 39917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f3d7ee284c3e5f1ff9168f491182a95"
+    }, {
+      "name" : "Element not found {.sign-in___StyledButton2-sc-nh5068-16}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946969387.2.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946969387.2.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sign-in___StyledButton2-sc-nh5068-16\"}",
+      "children" : [ {
+        "name" : "Opening the registration form by E-mail",
+        "uid" : "d3046dd483c1cf3b",
+        "parentUid" : "383988c945fb54a80e0902111fc6a61d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661946953664,
+          "stop" : 1661946971171,
+          "duration" : 17507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "383988c945fb54a80e0902111fc6a61d"
+    }, {
+      "name" : "Element should have text 'Ссылка не действительна' {.ant-modal-content}\r\nElement: '<div class=\"ant-modal-content\">Ошибка\nВремя действия ссылки истекло. Для активации профиля необходимо обратиться к администратору организации в Системе для повторной отправки ссылки для подтверждения\nОК</div>'\r\nActual value: Ошибка\nВремя действия ссылки истекло. Для активации профиля необходимо обратиться к администратору организации в Системе для повторной отправки ссылки для подтверждения\nОК\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946992423.3.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661946992423.3.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Follow the link twice",
+        "uid" : "21ea0c239ee18d0d",
+        "parentUid" : "5bfc6050b1065bb2566a0c35b8bfd2ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661946971188,
+          "stop" : 1661946994067,
+          "duration" : 22879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bfc6050b1065bb2566a0c35b8bfd2ae"
+    }, {
+      "name" : "Element not found {.auth___StyledCol-sc-19px8wx-0}\r\nExpected: text 'Время действия ссылки истекло. Для активации профиля необходимо обратиться к администратору организации в Системе для повторной отправки ссылки для подтверждения'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947026449.4.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947026449.4.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".auth___StyledCol-sc-19px8wx-0\"}",
+      "children" : [ {
+        "name" : "expired 24",
+        "uid" : "9cf9ca016f606a4d",
+        "parentUid" : "f4289e1584416d746fca67469a047a5d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947011893,
+          "stop" : 1661947028160,
+          "duration" : 16267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4289e1584416d746fca67469a047a5d"
+    }, {
+      "name" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947066839.5.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947066839.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "children" : [ {
+        "name" : "Enter 33 any characters",
+        "uid" : "60356ffac07d0b19",
+        "parentUid" : "ba658fc732205abbcc3e5f37fd0795f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947047788,
+          "stop" : 1661947068421,
+          "duration" : 20633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba658fc732205abbcc3e5f37fd0795f7"
+    }, {
+      "name" : "Element should have text 'Регистрация пользователя в Магазине Малых Закупок ONLINECONTRACT' {.ant-modal-title}\r\nElement: '<div class=\"ant-modal-title\" id=\"rcDialogTitle0\">Регистрация пользователя в Магазине Малых Закупок ONLCMARKET</div>'\r\nActual value: Регистрация пользователя в Магазине Малых Закупок ONLCMARKET\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947158552.6.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947158552.6.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Checking that the letters went to the operator",
+        "uid" : "b20571eeec354365",
+        "parentUid" : "b6a10f3761dd010db2d48d529583bb12",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947089159,
+          "stop" : 1661947160198,
+          "duration" : 71039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6a10f3761dd010db2d48d529583bb12"
+    }, {
+      "name" : "Element not found {.sign-in___StyledButton2-sc-1ofz83b-16}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947214846.7.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947214846.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sign-in___StyledButton2-sc-1ofz83b-16\"}",
+      "children" : [ {
+        "name" : "Leave the \"E-mail\" field empty",
+        "uid" : "bed4b43e7a11514b",
+        "parentUid" : "9c8c47871dea7510127ad0080da9c7b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947199786,
+          "stop" : 1661947216384,
+          "duration" : 16598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c8c47871dea7510127ad0080da9c7b1"
+    }, {
+      "name" : "Element should be visible or transparent: visible or have css value opacity=0 {.button___StyledAntButton-sc-1vj16k3-1}\r\nElement: '<button class=\"ant-btn ant-btn-additional ant-btn-lg ant-btn-icon-only button___StyledAntButton-sc-1vj16k3-1 bmsaTT OfferCompareAddButton___StyledButton-sc-1gnmu7t-1 kdCIvz\" disabled type=\"button\" value displayed:false></button>'\r\nActual value: visible:false, 1\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947238915.8.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947238915.8.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Create a password",
+        "uid" : "86116debe77b4f84",
+        "parentUid" : "b6415df284f75deab82ac40aa734daaf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947216402,
+          "stop" : 1661947240516,
+          "duration" : 24114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6415df284f75deab82ac40aa734daaf"
+    }, {
+      "name" : "Element not found {.sign-up___StyledCol3-sc-xixosh-7}\r\nExpected: text 'Заполните обязательные поля'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947263183.9.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947263183.9.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".sign-up___StyledCol3-sc-xixosh-7\"}",
+      "children" : [ {
+        "name" : "Leave all fields blank",
+        "uid" : "637d24b6a0c6b01b",
+        "parentUid" : "0f1d0a25db0fd2db9e1afc8990e756fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947240528,
+          "stop" : 1661947264806,
+          "duration" : 24278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f1d0a25db0fd2db9e1afc8990e756fe"
+    }, {
+      "name" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947335356.10.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947335356.10.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "children" : [ {
+        "name" : "input fields different passwords",
+        "uid" : "507ff10d7b7c04ae",
+        "parentUid" : "2acec9b6ce24c2335e70793ebb5e8663",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947312670,
+          "stop" : 1661947336910,
+          "duration" : 24240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2acec9b6ce24c2335e70793ebb5e8663"
+    }, {
+      "name" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947354307.11.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947354307.11.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "children" : [ {
+        "name" : "password check",
+        "uid" : "b45731118e7b7a3c",
+        "parentUid" : "2de37eef4bef64170ecd6d294f879248",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947336931,
+          "stop" : 1661947355925,
+          "duration" : 18994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2de37eef4bef64170ecd6d294f879248"
+    }, {
+      "name" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947392069.12.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947392069.12.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "children" : [ {
+        "name" : "Opening the password entry form",
+        "uid" : "ff88ac0630245fc",
+        "parentUid" : "8b4e14bc5e84e8ed7e1075d81d83e943",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947374772,
+          "stop" : 1661947393653,
+          "duration" : 18881
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b4e14bc5e84e8ed7e1075d81d83e943"
+    }, {
+      "name" : "Element not found {#password}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947429376.13.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947429376.13.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#password\"}",
+      "children" : [ {
+        "name" : "Creating a password”",
+        "uid" : "1133717613087d8e",
+        "parentUid" : "1d52c08670bf534646d6e41ef6e815b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947406784,
+          "stop" : 1661947430959,
+          "duration" : 24175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d52c08670bf534646d6e41ef6e815b7"
+    }, {
+      "name" : "Element not found {.forgot-password___StyledCol4-sc-aspcrp-8}\r\nExpected: text 'Некорректное значение e-mail'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947569792.14.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947569792.14.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".forgot-password___StyledCol4-sc-aspcrp-8\"}",
+      "children" : [ {
+        "name" : "Regression Testing",
+        "uid" : "a5ef509f898ea3d5",
+        "parentUid" : "a094ec9bb8126aa72cd6751e72436ffc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947546512,
+          "stop" : 1661947571383,
+          "duration" : 24871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a094ec9bb8126aa72cd6751e72436ffc"
+    }, {
+      "name" : "Element not found {.forward___StyledButton-sc-1093ize-0}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947636844.15.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947636844.15.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".forward___StyledButton-sc-1093ize-0\"}",
+      "children" : [ {
+        "name" : "registrationTest()",
+        "uid" : "31eff8b2d3e164bf",
+        "parentUid" : "9c60f5bbadf57ffb46c5cdc096fc08bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947588604,
+          "stop" : 1661947638474,
+          "duration" : 49870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c60f5bbadf57ffb46c5cdc096fc08bd"
+    }, {
+      "name" : "Element should have text 'Маркус Валентинович Гурбууу' {.UserHeaderButton___StyledParagraph-sc-6zbpjc-0}\r\nElement: '<div class=\"ant-typography ant-typography-ellipsis ant-typography-ellipsis-single-line UserHeaderButton___StyledParagraph-sc-6zbpjc-0 bhTiwc\">Маркус FF Максимов</div>'\r\nActual value: Маркус FF Максимов\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947959902.16.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661947959902.16.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Regression Testing",
+        "uid" : "11bf04f2c6faea66",
+        "parentUid" : "1f6dd1972cc90d5ee5d8e6e90ea13ad6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661947928682,
+          "stop" : 1661947961793,
+          "duration" : 33111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f6dd1972cc90d5ee5d8e6e90ea13ad6"
+    }, {
+      "name" : "Element not found {.card___StyledTooltipParagraph-sc-eydu8b-5}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948044365.17.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948044365.17.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".card___StyledTooltipParagraph-sc-eydu8b-5\"}",
+      "children" : [ {
+        "name" : "Regression Testing",
+        "uid" : "efb9d2fafaab46e6",
+        "parentUid" : "76c05a8088876b34389c7d99bcfd7733",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661948018074,
+          "stop" : 1661948045952,
+          "duration" : 27878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76c05a8088876b34389c7d99bcfd7733"
+    }, {
+      "name" : "Element not found {.query___StyledButton-sc-12ah1wk-0}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948082831.18.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948082831.18.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".query___StyledButton-sc-12ah1wk-0\"}",
+      "children" : [ {
+        "name" : "validDataTest()",
+        "uid" : "a5d7a30abaa70ff8",
+        "parentUid" : "1d7c9f868d63e1ca4b415bfc15651942",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661948045962,
+          "stop" : 1661948084416,
+          "duration" : 38454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d7c9f868d63e1ca4b415bfc15651942"
+    }, {
+      "name" : "Element not found {.card___StyledTooltipParagraph-sc-eydu8b-5}\r\nExpected: visible or transparent: visible or have css value opacity=0\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948133512.19.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948133512.19.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".card___StyledTooltipParagraph-sc-eydu8b-5\"}",
+      "children" : [ {
+        "name" : "Regression Testing",
+        "uid" : "21e201b3b0be654",
+        "parentUid" : "a2e229b4fa6f2c426fcdb453b6a29904",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661948099024,
+          "stop" : 1661948135204,
+          "duration" : 36180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2e229b4fa6f2c426fcdb453b6a29904"
+    }, {
+      "name" : "Element not found {.ant-empty-description}\r\nExpected: text 'По Вашему запросу ничего не найдено. Задайте другие параметры поиска.'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948164921.20.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948164921.20.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ant-empty-description\"}",
+      "children" : [ {
+        "name" : "Purchase",
+        "uid" : "4b475c302e47cec9",
+        "parentUid" : "0fbc0fd159b7adb3345c48c39f1f5ea4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661948145771,
+          "stop" : 1661948166406,
+          "duration" : 20635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0fbc0fd159b7adb3345c48c39f1f5ea4"
+    }, {
+      "name" : "Element not found {[href='/home/purchase/1000011000804/']}\r\nExpected: text 'ММЗ+7(900)237-05-22артикул'\r\nScreenshot: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.png\r\nPage source: file:/C:/Users/Albina/IdeaProjects/AUTO-807/build/reports/tests/1661948250751.21.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[href='/home/purchase/1000011000804/']\"}",
+      "children" : [ {
+        "name" : "Purchase",
+        "uid" : "15911c130381a012",
+        "parentUid" : "44a09b0d08ad6c26a477a318bf26005f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661948179030,
+          "stop" : 1661948252214,
+          "duration" : 73184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44a09b0d08ad6c26a477a318bf26005f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,592 @@
+{
+  "uid" : "6602d1361741dc2f",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.role.RoleGuestTest.openingPurchase",
+  "historyId" : "1138180da72d197c84aadc821f9cff0c",
+  "time" : {
+    "start" : 1661948084424,
+    "stop" : 1661948099017,
+    "duration" : 14593
+  },
+  "description" : "Открытие формы авторизации по E-mail ",
+  "descriptionHtml" : "<p>Открытие формы авторизации по E-mail</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947990131,
+      "stop" : 1661947990132,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947990132,
+      "stop" : 1661947990133,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Открытие формы авторизации по E-mail ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/',Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661948084425,
+        "stop" : 1661948096303,
+        "duration" : 11878
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/home/purchase/list/",
+        "time" : {
+          "start" : 1661948084425,
+          "stop" : 1661948093299,
+          "duration" : 8874
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть страницу Закупки",
+      "time" : {
+        "start" : 1661948096303,
+        "stop" : 1661948096422,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".title___StyledCol2-sc-1x77gcv-3\") should have(text 'Закупки')",
+        "time" : {
+          "start" : 1661948096303,
+          "stop" : 1661948096338,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".title___StyledCol2-sc-1x77gcv-3\") click()",
+        "time" : {
+          "start" : 1661948096338,
+          "stop" : 1661948096422,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести в поиск, наименование закупки",
+      "time" : {
+        "start" : 1661948096423,
+        "stop" : 1661948096678,
+        "duration" : 255
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_query\") set value(Бутылка)",
+        "time" : {
+          "start" : 1661948096423,
+          "stop" : 1661948096678,
+          "duration" : 255
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку найти, лупа",
+      "time" : {
+        "start" : 1661948096679,
+        "stop" : 1661948096942,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".query___StyledButton-sc-k4w9i7-0\") click()",
+        "time" : {
+          "start" : 1661948096679,
+          "stop" : 1661948096942,
+          "duration" : 263
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить наименование",
+      "time" : {
+        "start" : 1661948096943,
+        "stop" : 1661948097394,
+        "duration" : 451
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledRow2-sc-mxaahj-3\") should have(text 'Бутылка')",
+        "time" : {
+          "start" : 1661948096943,
+          "stop" : 1661948097394,
+          "duration" : 451
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку удалить",
+      "time" : {
+        "start" : 1661948097395,
+        "stop" : 1661948097534,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".ant-input-clear-icon\") click()",
+        "time" : {
+          "start" : 1661948097395,
+          "stop" : 1661948097534,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести в поиск, номер закупки",
+      "time" : {
+        "start" : 1661948097534,
+        "stop" : 1661948097739,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#HomePurchaseForm_query\") set value(1002341000004)",
+        "time" : {
+          "start" : 1661948097534,
+          "stop" : 1661948097739,
+          "duration" : 205
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку найти, лупа",
+      "time" : {
+        "start" : 1661948097740,
+        "stop" : 1661948097858,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".query___StyledButton-sc-k4w9i7-0\") click()",
+        "time" : {
+          "start" : 1661948097740,
+          "stop" : 1661948097858,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить номер",
+      "time" : {
+        "start" : 1661948097859,
+        "stop" : 1661948097887,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol4-sc-mxaahj-8\") should have(text '1002341000004')",
+        "time" : {
+          "start" : 1661948097859,
+          "stop" : 1661948097887,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка Начальная стоимость",
+      "time" : {
+        "start" : 1661948097887,
+        "stop" : 1661948097913,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol9-sc-mxaahj-14\") should have(text 'Начальная стоимость')",
+        "time" : {
+          "start" : 1661948097888,
+          "stop" : 1661948097913,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка не указана",
+      "time" : {
+        "start" : 1661948097913,
+        "stop" : 1661948097942,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledMoney-sc-mxaahj-16\") should have(text 'не указана')",
+        "time" : {
+          "start" : 1661948097914,
+          "stop" : 1661948097942,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "",
+      "time" : {
+        "start" : 1661948097943,
+        "stop" : 1661948097973,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"[href=\"/home/purchase/1002341000004/?tab=compositions\"]\") should have(text 'Подано оферт: 4')",
+        "time" : {
+          "start" : 1661948097943,
+          "stop" : 1661948097973,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "",
+      "time" : {
+        "start" : 1661948097974,
+        "stop" : 1661948098005,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol6-sc-mxaahj-10\") should have(text 'Вид закупки')",
+        "time" : {
+          "start" : 1661948097974,
+          "stop" : 1661948098005,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "",
+      "time" : {
+        "start" : 1661948098006,
+        "stop" : 1661948098034,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".card___StyledCol7-sc-mxaahj-11\") should have(text 'Открытая закупка с запросом оферт')",
+        "time" : {
+          "start" : 1661948098006,
+          "stop" : 1661948098034,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 29,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661948098035,
+      "stop" : 1661948099017,
+      "duration" : 982
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661948098372,
+        "stop" : 1661948099016,
+        "duration" : 644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "334b9eb2f08635f3",
+      "name" : "Last screenshot",
+      "source" : "334b9eb2f08635f3.png",
+      "type" : "image/png",
+      "size" : 111198
+    }, {
+      "uid" : "3822d81670c73761",
+      "name" : "Page source",
+      "source" : "3822d81670c73761.html",
+      "type" : "text/html",
+      "size" : 664604
+    }, {
+      "uid" : "ee9dd47411d42e4b",
+      "name" : "Browser console logs",
+      "source" : "ee9dd47411d42e4b.txt",
+      "type" : "text/plain",
+      "size" : 614
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.role.RoleGuestTest]/[method:openingPurchase()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.role.RoleGuestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.role.RoleGuestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openingPurchase"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.role.RoleGuestTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "6602d1361741dc2f.json",
+  "parameterValues" : [ ]
+}

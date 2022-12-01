@@ -1,0 +1,16 @@
+[2022-08-31T15:04:22+0300] [SEVERE] https://stage.onlc.market/api/user_profile - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:04:22+0300] [SEVERE] https://stage.onlc.market/api/user_profile/show - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:04:23+0300] [SEVERE] https://mc.yandex.com/sync_cookie_image_decide?token=9747.7M48YokMcOGzbFm5xupZfsqb5_TffcIrgOdnoXu5m9SGMBpcr1cdzrNDDmRGDWlfAMMBZfKe6dXden56n4M0jQ%2C%2C.aH1O0vTL29620xmsQ2Uo02liEhU%2C - Failed to load resource: the server responded with a status of 400 ()
+[2022-08-31T15:04:24+0300] [SEVERE] https://stage.onlc.market/_next/static/chunks/53821dbbc763f126652325d98aed89dacbb7ba6f.8b9186c2a91fc2b33963.js 0:145249 "Error:" TypeError: Failed to fetch
+    at fetchCallImpl (https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=csGaRncr6zA-dIkHLOVSwpr0NJKXLkcEDOYQMwTJ3eOWm7EypKED__Ql2qMyu19A:3494:25)
+    at window.fetch (https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=csGaRncr6zA-dIkHLOVSwpr0NJKXLkcEDOYQMwTJ3eOWm7EypKED__Ql2qMyu19A:3496:55)
+    at Object.queryFn (https://stage.onlc.market/_next/static/chunks/53821dbbc763f126652325d98aed89dacbb7ba6f.8b9186c2a91fc2b33963.js:1:144791)
+    at https://stage.onlc.market/_next/static/chunks/bebf29945ebc962f45322496c3ccf4a1cccd9334.13844db1c3f36952bf99.js:1:30399
+    at https://stage.onlc.market/_next/static/chunks/bebf29945ebc962f45322496c3ccf4a1cccd9334.13844db1c3f36952bf99.js:1:31438
+    at q (https://stage.onlc.market/_next/static/chunks/bebf29945ebc962f45322496c3ccf4a1cccd9334.13844db1c3f36952bf99.js:1:25321)
+    at https://stage.onlc.market/_next/static/chunks/bebf29945ebc962f45322496c3ccf4a1cccd9334.13844db1c3f36952bf99.js:1:31416
+    at https://stage.onlc.market/_next/static/chunks/bebf29945ebc962f45322496c3ccf4a1cccd9334.13844db1c3f36952bf99.js:1:25501
+    at https://stage.onlc.market/_next/static/chunks/bebf29945ebc962f45322496c3ccf4a1cccd9334.13844db1c3f36952bf99.js:1:31951
+    at new Promise (<anonymous>)
+[2022-08-31T15:04:25+0300] [SEVERE] https://stage.onlc.market/api/user_profile - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:04:25+0300] [SEVERE] https://stage.onlc.market/api/user_profile/show - Failed to load resource: the server responded with a status of 403 (Forbidden)

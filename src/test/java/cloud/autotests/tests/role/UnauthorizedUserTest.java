@@ -16,7 +16,7 @@ public class UnauthorizedUserTest extends TestBase {
     @Tag("demowebshop")
     @Test
     @Description("Открытие формы авторизации по E-mail ")
-    @DisplayName("Regression Testing")
+    @DisplayName("Regression Testing 3")
     void openingLoginForm() {
 
         step("Open 'https://stage.onlc.market/',Открываем любую страницу сайта.", () -> {
@@ -45,17 +45,19 @@ public class UnauthorizedUserTest extends TestBase {
     @Tag("demowebshop")
     @Test
     @Description("Открытие формы авторизации по E-mail ")
-    @DisplayName("Regression Testing")
+    @DisplayName("Regression Testing 1")
     void openOfferCard() {
         step("Open 'https://stage.onlc.market/", () -> {
             open(url);
             sleep(4000);
         });
         step("Search by offer name", () -> {
-            $("#HomeOffersForm_query").setValue("окпд");
+            $("#HomeOffersForm_query").setValue("окпд").pressEnter();
+            sleep(4000);
         });
         step("Choose an offer", () -> {
-            $(".card___StyledTooltipParagraph-sc-eydu8b-5").click();
+            $("[href=\"/home/offers/show/1508252/\"]").click();
+            sleep(5000);
         });
         step("Check path 'Home' ", () -> {
             $(".ant-breadcrumb-link").shouldHave(text("Главная"));
@@ -64,9 +66,11 @@ public class UnauthorizedUserTest extends TestBase {
             $("[href=\"/home/offer/list/\"]").shouldHave(text("Оферты"));
         });
         step("Check path 'Offer name'", () -> {
+            sleep(3000);
             $(".breadcrumbs___StyledSpan-sc-nvq3lj-0").shouldHave(text("окпд"));
         });
-       step("Name of company", () -> {
+        step("Name of company", () -> {
+            sleep(3000);
             $("[href=\"/home/organisations/1/\"]").shouldHave(text("ООО \"Карта\""));
         });
         step("Imust contain article", () -> {
@@ -128,8 +132,516 @@ public class UnauthorizedUserTest extends TestBase {
             $(".file___StyledSpan-sc-14epk5q-1").shouldBe(visible).click();
             $(".ant-popover").shouldBe(visible);
         });
-        step("Получить результат", () -> {
-            $("[aria-controls='rc-tabs-0-panel-/home/purchase/list']").shouldHave(text("Закупки")).click();
+        step("Unit price comment", () -> {
+            $("[href=\"/home/organisations/1/\"]").click();
+            sleep(6000);
         });
+    }
+
+    @Tag("demowebshop")
+    @Test
+    @Description("Открытие формы авторизации по E-mail ")
+    @DisplayName("Purchase")
+    void openingPurchase() {
+        step("Open 'https://stage.onlc.market/home/purchase/list/',Открываем любую страницу сайта.", () -> {
+            open(urlPurchase);
+            sleep(3000);
+        });
+        step("Check title", () -> {
+            $(".title___StyledCol2-sc-1x77gcv-3").shouldHave(text("Закупки")).click();
+        });
+        step("Search by name", () -> {
+            $("#HomePurchaseForm_query").setValue("Бутылка");
+        });
+        step("Click on search", () -> {
+            $(".query___StyledButton-sc-k4w9i7-0").click();
+        });
+        step("Check purchase name", () -> {
+            $(".card___StyledRow2-sc-mxaahj-3").shouldHave(text("Бутылка"));
+        });
+        step("Click on the delete button", () -> {
+            $(".ant-input-clear-icon").click();
+        });
+        step("Purchase number or item name", () -> {
+            $("#HomePurchaseForm_query").setValue("1002341000004");
+        });
+        step("Click on search", () -> {
+            $(".query___StyledButton-sc-k4w9i7-0").click();
+        });
+        step("Check purchase number", () -> {
+            $(".card___StyledCol4-sc-mxaahj-8").shouldHave(text("1002341000004"));
+        });
+        step("Check the Initial Cost field", () -> {
+            $(".card___StyledCol9-sc-mxaahj-14").shouldHave(text("Начальная стоимость"));
+        });
+        step("Not specified", () -> {
+            $(".card___StyledMoney-sc-mxaahj-16").shouldHave(text("не указана"));
+        });
+        step("Applications submitted", () -> {
+            $("[href=\"/home/purchase/1002341000004/?tab=compositions\"]").shouldHave(text("Подано оферт: 4"));
+        });
+        step("Сheck Purchasing type", () -> {
+            $(".card___StyledCol6-sc-mxaahj-10").shouldHave(text("Вид закупки"));
+        });
+        step("Open procurement with request for proposals", () -> {
+            $(".card___StyledCol7-sc-mxaahj-11").shouldHave(text("Открытая закупка с запросом оферт"));
+        });
+        step("Check the text if not a suitable purchase", () -> {
+            $(".ant-alert-message").shouldHave(text("Нет подходящей закупки? Найти “1002341000004” на ЭТП ONLINECONTRACT")).click();
+        });
+        step("Click on the power", () -> {
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Юридическое лицо РФ full_name", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("Карта").pressEnter();
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 491"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Юридическое лицо РФ short_name", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("Карта").pressEnter();
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 491"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Юридическое лицо РФ  inn", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("1649069856").pressEnter();
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 491"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Индивидуальный предприниматель ip_name_f", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("Сбалансированный").pressEnter();
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 1"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Индивидуальный предприниматель ip_name_i", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("Авторитет").pressEnter();
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 1"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Индивидуальный предприниматель ip_name_o", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("ИП Сбалансированный Авторитет Байесович").pressEnter();
+            sleep(2000);
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 1"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Индивидуальный предприниматель inn", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("217924713030").pressEnter();
+            sleep(2000);
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 1"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Юридическое лицо иностранного государства full_name", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("Полное наименование  Инглиш").pressEnter();
+            sleep(2000);
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 4"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        /*step("Search name Юридическое лицо иностранного государства short_name", () -> { - не работает
+            $("#HomePurchaseForm_providerQuery").setValue("ООО ИНГ").pressEnter();
+            sleep(2000);
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 4"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });*/
+        step("Search name Юридическое лицо иностранного государства inn", () -> {
+            $("#HomePurchaseForm_providerQuery").setValue("6026573582").pressEnter();
+            sleep(2000);
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").shouldHave(text("Найдено: 4"));
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").click();
+        });
+        step("Search name Юридическое лицо иностранного государства inn", () -> {
+            $(".ant-select-selector").click();
+        });
+        step("Organization regions, find, click on search", () -> {
+            $("#HomePurchaseForm_regions").setValue("01  Респ Адыгея").click();
+            $(".ant-checkbox-input").click();
+            $("#HomePurchaseForm_regions").setValue("02  Респ Башкортостан").click();
+            $(".ant-checkbox-input").click();
+            sleep(3000);
+            $("#HomePurchaseForm_regions").setValue("99  г Байконур").click();
+            $(".ant-checkbox-input").click();
+            sleep(3000);
+            $(".query___StyledButton-sc-k4w9i7-0").click();
+            sleep(2000);
+        });
+        step("Check region", () -> {
+            $(".region-tag___StyledParagraph-sc-n80g0h-0").shouldHave(text("01  Респ Адыгея"));
+            $$(".region-tag___StyledParagraph-sc-n80g0h-0").get(1).shouldHave(text("02  Респ Башкортостан"));
+            $$(".region-tag___StyledParagraph-sc-n80g0h-0").get(2).shouldHave(text("99  г Байконур"));
+        });
+        step("Search by okpd2", () -> {
+            $$(".ant-select-selection-overflow-item-suffix").get(1).click();
+            $("#HomePurchaseForm_okpd").setValue("33");
+            sleep(3000);
+            $("[title=\"33.1  Услуги по ремонту металлоизделий, машин и оборудования\"]").click();
+            $("[title=\"33.2  Услуги по монтажу промышленных машин и оборудования\"]").click();
+            //$(".ant-checkbox-input").click();
+            sleep(3000);
+            $(".query___StyledButton-sc-k4w9i7-0").click();
+        });
+        step("Check entered data okpd2", () -> {
+            sleep(2000);
+            $(".okpd2-tag___StyledParagraph-sc-1f3mzh9-0").shouldHave(text("33.1  Услуги по ремонту металлоизделий, машин и оборудования"));
+            $$(".okpd2-tag___StyledParagraph-sc-1f3mzh9-0").get(1).shouldHave(text("33.2  Услуги по монтажу промышленных машин и оборудования"));
+        });
+        step("Publication date", () -> {
+            $(".ant-picker-input").click();
+            sleep(3000);
+            $("[title=\"2022-08-14\"]").click();
+        });
+        step("Deadline for accepting offers", () ->{
+                $(".ant-picker-input-active").click();
+                $("[title=\"2022-08-15\"]").click();
+        });
+        step("Check entered data", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Click on the clear filter button", () -> {
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").shouldHave(text("Очистить фильтр")).click();
+            sleep(3000);
+        });
+        step("Publication date", () -> {
+            $$(".ant-picker-input").get(2).click();
+            sleep(3000);
+            $("[title=\"2022-08-08\"]").click();
+        });
+        step("Deadline for accepting offers", () -> {
+                $$(".ant-picker-input-active").get(1).click();
+                $("[title=\"2022-08-15\"]").click();
+        });
+        step("Check title", () -> {
+            $("[href='/home/purchase/1000011000804/']").shouldHave(text("ММЗ+7(900)237-05-22артикул"));
+        });
+        step("click on the clear button", () -> {
+            $(".reset___StyledButton-sc-1xsoiht-0").click();
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+        });
+        step("Checkbox procurement stage", () -> {
+            $(".ant-checkbox-input").click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        step("Check title", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+            $$(".ant-checkbox-input").get(2).click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        step("Check title", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+            $$(".ant-checkbox-input").get(4).click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        step("Check title", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+            $$(".ant-checkbox-input").get(6).click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        step("Check title", () -> {
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").scrollIntoView("0, -250" ).shouldHave(text("Найдено: 974"));
+        });
+        step("By date modified", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $(byText("По дате изменения")).click();
+            sleep(3000);
+        });
+        step("By date modified",() -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(byText("По дате изменения")).get(2).click();
+            sleep(3000);
+        });
+        step("By publication date", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(4).click();
+            sleep(3000);
+        });
+        step("By publication date",() -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(5).click();
+            sleep(3000);
+        });
+        step("By the deadline for accepting offers", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(6).click();
+            sleep(3000);
+        });
+        step("By the deadline for accepting offers", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(7).click();
+            sleep(3000);
+        });
+        step("Check purchase name", () -> {
+            $("[placeholder=\"Поиск по наименованию, номеру закупки или по наименованию позиции\"]").setValue("1000011000150").pressEnter();
+        });
+        step("Check name",() -> {
+            sleep(2000);
+            $(".card___StyledSpan-sc-mxaahj-4").click();
+        });
+        step("Check path Главная",() -> {
+            $(".ant-breadcrumb-link").shouldHave(text("Главная"));
+        });
+        step("Check path Закупки",() -> {
+            $("[href=\"/home/purchase/list/\"]").shouldHave(text("Закупки"));
+        });
+        step("Check path Закупки",() -> {
+            $(".breadcrumbs___StyledSpan-sc-nvq3lj-0").shouldHave(text("Запорная арматура"));
+        });
+        step("Check path name",() -> {
+            $(".card___StyledCol2-sc-fvmiwg-1").shouldHave(text("Запорная арматура"));
+        });
+        step("Check status", () -> {
+            $(".card___StyledPurchaseStageTag-sc-fvmiwg-3").shouldHave(text("Завершена"));
+        });
+        step("Purchasing Information",() -> {
+            $(".ant-card-head-title").shouldHave(text("Информация о закупке"));
+        });
+        step("Purchase number",() -> {
+            $(".table___StyledSpan-sc-10149h5-0").shouldHave(text("№ закупки"));
+        });
+        step("Check purchase number",() -> {
+            sleep(2000);
+            $(".table___StyledSpan2-sc-10149h5-1").shouldHave(text("1000011000150"));
+        });
+        step("Purchasing type",() -> {
+            $$(".table___StyledSpan-sc-10149h5-0").get(1).shouldHave(text("Тип закупки"));
+        });
+        step("Check purchasing type",() -> {
+            $$(".table___StyledSpan2-sc-10149h5-1").get(1).shouldHave(text("Открытая"));
+        });
+        step("Initial cost",() -> {
+            $$(".table___StyledSpan-sc-10149h5-0").get(3).shouldHave(text("Начальная стоимость"));
+        });
+        step("Check initial cost",() -> {
+            $("[itemprop=\"price\"]").shouldHave(text("330,00"));
+        });
+        step("Check currency",() -> {
+            $("[itemprop=\"priceCurrency\"]").shouldHave(text("руб."));
+        });
+        step("Additional Information",() -> {
+            $$(".table___StyledSpan-sc-10149h5-0").get(4).shouldHave(text("Дополнительная информация"));
+        });
+        step("Check additional Information",() -> {
+            $$(".table___StyledSpan2-sc-10149h5-1").get(3).shouldHave(text("Вентили латунные и чугунные"));
+        });
+        step("Customer Information",() -> {
+            $$(".ant-card-head-title").get(1).shouldHave(text("Информация о заказчике"));
+        });
+        step("Name",() -> {
+            $(".table___StyledSpan-sc-fox330-0").shouldHave(text("Наименование"));
+        });
+        step("Name of the organization",() -> {
+            $("[href=\"/home/organisations/1/\"]").shouldHave(text("ООО \"Карта\""));
+        });
+        step("Legal address",() -> {
+            $$(".table___StyledSpan-sc-fox330-0").get(1).shouldHave(text("Юридический адрес"));
+        });
+        step("Check legal address",() -> {
+            $$(".table___StyledSpan2-sc-fox330-1").get(1).shouldHave(text("Респ Татарстан, Высокогорский р-н, А/Д Казань-Арск перекресток к нп Каменка"));
+        });
+        step("The actual address",() -> {
+            $$(".table___StyledSpan-sc-fox330-0").get(2).shouldHave(text("Фактический адрес"));
+        });
+        step("Check the actual address",() -> {
+            $$(".table___StyledSpan2-sc-fox330-1").get(2).shouldHave(text("Респ Татарстан, Высокогорский р-н, А/Д Казань-Арск перекресток к нп Каменка"));
+        });
+        step("Telephone",() -> {
+            $$(".table___StyledSpan-sc-fox330-0").get(3).shouldHave(text("Телефон"));
+        });
+        step("Check telephone",() -> {
+            $$(".table___StyledSpan2-sc-fox330-1").get(3).shouldHave(text("+7 (843) 256-23-56 доб. 4556"));
+        });
+        step("Website",() -> {
+            $$(".table___StyledSpan-sc-fox330-0").get(4).shouldHave(text("Сайт"));
+        });
+        step("Check website",() -> {
+            $$(".table___StyledSpan2-sc-fox330-1").get(4).shouldHave(text("eeee.ru"));
+        });
+        step("email",() -> {
+            $$(".table___StyledSpan-sc-fox330-0").get(5).shouldHave(text("E-mail"));
+        });
+        step("Check email",() -> {
+            $$(".table___StyledSpan2-sc-fox330-1").get(5).shouldHave(text("dev1@test.test"));
+        });
+        step("The contact person",() -> {
+            $$(".table___StyledSpan-sc-fox330-0").get(6).shouldHave(text("Контактное лицо"));
+        });
+        step("Check the contact person",() -> {
+            $$(".table___StyledSpan2-sc-fox330-1").get(6).shouldHave(text("МАКС МАКС МАКС"));
+        });
+        step("Purchasing items",() -> {
+            $("#rc-tabs-2-tab-compositions").shouldHave(text("Позиции закупки")).click();
+        });
+        step("Name purchasing items",() -> {
+            $(".composition___StyledSpan2-sc-1bq2av0-3").shouldHave(text("Сделайте оптовый заказ запорной арматуры от российских и зарубежных производителей. Большой выбор изделий из латуни, стали, силумина и других материалов. Выгодные условия сотрудничества и стабильные поставки."));
+        });
+
+
+
+    }
+    @Tag("demowebshop")
+    @Test
+    @Description("Открытие формы авторизации по E-mail ")
+    @DisplayName("Purchase")
+    void openin3gPurchase() {
+        step("Open 'https://stage.onlc.market/home/purchase/list/',Открываем любую страницу сайта.", () -> {
+            open(urlPurchase);
+            sleep(3000);
+        });
+
+        step("Publication date", () -> {
+            $(".ant-picker-input").click();
+            sleep(3000);
+            $("[title=\"2022-08-06\"]").click();
+        });
+        step("Deadline for accepting offers", () ->{
+            $(".ant-picker-input-active").click();
+            $("[title=\"2022-08-15\"]").click();
+        });
+        step("Check entered data", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Click on the clear filter button", () -> {
+            $(".sub-top___StyledButton-sc-1ntw6q1-4").shouldHave(text("Очистить фильтр")).click();
+            sleep(3000);
+        });
+        step("Publication date", () -> {
+            $$(".ant-picker-input").get(2).click();
+            sleep(3000);
+            $("[title=\"2022-08-04\"]").click();
+        });
+        step("Deadline for accepting offers", () -> {
+            $$(".ant-picker-input-active").get(1).click();
+            $("[title=\"2022-08-15\"]").click();
+        });
+        step("Check title", () -> {
+            $("[href=\"/home/purchase/1000011000804/\"]").shouldHave(text("ММЗ+7(900)237-05-22артикул"));
+        });
+        step("click on the clear button", () -> {
+            $(".reset___StyledButton-sc-1xsoiht-0").click();
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+        });
+        step("Checkbox procurement stage", () -> {
+            $(".ant-checkbox-input").click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        /*step("Check title", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+            $$(".ant-checkbox-input").get(2).click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        step("Check title", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+            $$(".ant-checkbox-input").get(4).click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        step("Check title", () -> {
+            $(".ant-empty-description").shouldHave(text("По Вашему запросу ничего не найдено. Задайте другие параметры поиска."));
+        });
+        step("Select procurement stage", () -> {
+            $$(".ant-select-selector").get(2).scrollTo().click();
+            $$(".ant-checkbox-input").get(6).click();
+            $$(".ant-select-selector").get(2).click();
+        });
+        step("Check title", () -> {
+            $(".sub-top___StyledCol-sc-1ntw6q1-2").scrollIntoView("0, -250" ).shouldHave(text("Найдено: 974"));
+        });
+        step("By date modified", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $(byText("По дате изменения")).click();
+            sleep(3000);
+        });
+        step("By date modified",() -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(byText("По дате изменения")).get(2).click();
+            sleep(3000);
+        });
+        step("By publication date", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(4).click();
+            sleep(3000);
+        });
+        step("By publication date",() -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(5).click();
+            sleep(3000);
+        });
+        step("By the deadline for accepting offers", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(6).click();
+            sleep(3000);
+        });
+        step("By the deadline for accepting offers", () -> {
+            $$(".select___StyledASelect-sc-1pgzee7-1").get(3).click();
+            $$(".order___StyledCol-sc-1b0jq0w-2").get(7).click();
+            sleep(3000);
+        });
+        step("Check purchase name", () -> {
+            $("[placeholder=\"Поиск по наименованию, номеру закупки или по наименованию позиции\"]").setValue("1000011000150").pressEnter();
+        });
+        step("Check name",() -> {
+            sleep(2000);
+            $(".card___StyledSpan-sc-mxaahj-4").click();
+        });
+        step("Check path Главная",() -> {
+            $(".ant-breadcrumb-link").shouldHave(text("Главная"));
+        });
+        step("Check path Закупки",() -> {
+            $("[href=\"/home/purchase/list/\"]").shouldHave(text("Закупки"));
+        });
+        step("Check path Закупки",() -> {
+            $(".breadcrumbs___StyledSpan-sc-nvq3lj-0").shouldHave(text("Запорная арматура"));
+        });
+        step("Check path name",() -> {
+            $(".card___StyledCol2-sc-fvmiwg-1").shouldHave(text("Запорная арматура"));
+        });
+        step("Check status", () -> {
+            $(".card___StyledPurchaseStageTag-sc-fvmiwg-3").shouldHave(text("Завершена"));
+        });
+        step("Purchasing Information",() -> {
+            $(".ant-card-head-title").shouldHave(text("Информация о закупке"));
+        });
+        step("Purchase number",() -> {
+            $(".table___StyledSpan-sc-10149h5-0").shouldHave(text("№ закупки"));
+        });
+        step("Check purchase number",() -> {
+            sleep(2000);
+            $(".table___StyledSpan2-sc-10149h5-1").shouldHave(text("1000011000150"));
+        });
+        step("Purchasing type",() -> {
+            $$(".table___StyledSpan-sc-10149h5-0").get(1).shouldHave(text("Тип закупки"));
+        });
+        step("Check purchasing type",() -> {
+            $$(".table___StyledSpan2-sc-10149h5-1").get(1).shouldHave(text("Открытая"));
+        });
+        step("Initial cost",() -> {
+            $$(".table___StyledSpan-sc-10149h5-0").get(3).shouldHave(text("Начальная стоимость"));
+        });
+        step("Check initial cost",() -> {
+            $("[itemprop=\"price\"]").shouldHave(text("330,00"));
+        });
+        step("Check currency",() -> {
+            $("[itemprop=\"priceCurrency\"]").shouldHave(text("руб."));
+        });
+        step("Additional Information",() -> {
+            $$(".table___StyledSpan-sc-10149h5-0").get(4).shouldHave(text("Дополнительная информация"));
+        });
+        step("Check additional Information",() -> {
+            $$(".table___StyledSpan2-sc-10149h5-1").get(3).shouldHave(text("Вентили латунные и чугунные"));
+        });*/
     }
 }

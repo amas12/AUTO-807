@@ -1,0 +1,337 @@
+{
+  "uid" : "ca9f33dd7926748d",
+  "name" : "Regression Testing",
+  "fullName" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest.forgotPasswordForm",
+  "historyId" : "ab631b54d89732fe171d30843a95e69e",
+  "time" : {
+    "start" : 1661947526909,
+    "stop" : 1661947546504,
+    "duration" : 19595
+  },
+  "description" : "Если профиль организации не заполнен, открывается форма просмотра",
+  "descriptionHtml" : "<p>Если профиль организации не заполнен, открывается форма просмотра</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1661947454120,
+      "stop" : 1661947454122,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "configureBaseUrl",
+    "time" : {
+      "start" : 1661947454122,
+      "stop" : 1661947454124,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Если профиль организации не заполнен, открывается форма просмотра",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open 'https://stage.onlc.market/',Открываем любую страницу сайта.",
+      "time" : {
+        "start" : 1661947526910,
+        "stop" : 1661947537956,
+        "duration" : 11046
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://stage.onlc.market/",
+        "time" : {
+          "start" : 1661947526910,
+          "stop" : 1661947536827,
+          "duration" : 9917
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"clearCookies\") ",
+        "time" : {
+          "start" : 1661947536827,
+          "stop" : 1661947536855,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"refresh\") ",
+        "time" : {
+          "start" : 1661947536855,
+          "stop" : 1661947536949,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "В правом углу шапки сайта кликаем «Личный кабинет»",
+      "time" : {
+        "start" : 1661947537956,
+        "stop" : 1661947538422,
+        "duration" : 466
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".HeaderBottomServiceButton___StyledSpan3-sc-1gvkxmg-6\") click()",
+        "time" : {
+          "start" : 1661947537956,
+          "stop" : 1661947538422,
+          "duration" : 466
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить кнопку Забыли пароль?",
+      "time" : {
+        "start" : 1661947538422,
+        "stop" : 1661947541274,
+        "duration" : 2852
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-in___StyledButton-sc-1ofz83b-12\") should have(text 'Забыли пароль?')",
+        "time" : {
+          "start" : 1661947538422,
+          "stop" : 1661947539273,
+          "duration" : 851
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить кнопку Забыли пароль?",
+      "time" : {
+        "start" : 1661947541274,
+        "stop" : 1661947543511,
+        "duration" : 2237
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".sign-in___StyledButton-sc-1ofz83b-12\") click()",
+        "time" : {
+          "start" : 1661947541274,
+          "stop" : 1661947541508,
+          "duration" : 234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Получить результат:  Должна открыться форма восстановления пароля:",
+      "time" : {
+        "start" : 1661947543511,
+        "stop" : 1661947545562,
+        "duration" : 2051
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".forgot-password___StyledCol2-sc-aspcrp-3\") should have(text 'Забыли пароль?')",
+        "time" : {
+          "start" : 1661947543511,
+          "stop" : 1661947543557,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 12,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1661947545562,
+      "stop" : 1661947546503,
+      "duration" : 941
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661947545867,
+        "stop" : 1661947546502,
+        "duration" : 635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "608a06c7885fdba",
+      "name" : "Last screenshot",
+      "source" : "608a06c7885fdba.png",
+      "type" : "image/png",
+      "size" : 126086
+    }, {
+      "uid" : "9a5ff0db72502113",
+      "name" : "Page source",
+      "source" : "9a5ff0db72502113.html",
+      "type" : "text/html",
+      "size" : 1153983
+    }, {
+      "uid" : "b1824dee38568d8d",
+      "name" : "Browser console logs",
+      "source" : "b1824dee38568d8d.txt",
+      "type" : "text/plain",
+      "size" : 2441
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demowebshop"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.demowebshop.OrganizationProfileTest]/[method:forgotPasswordForm()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-4AB6G28V"
+  }, {
+    "name" : "thread",
+    "value" : "14920@LAPTOP-4AB6G28V.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "forgotPasswordForm"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.demowebshop.OrganizationProfileTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "demowebshop" ]
+  },
+  "source" : "ca9f33dd7926748d.json",
+  "parameterValues" : [ ]
+}

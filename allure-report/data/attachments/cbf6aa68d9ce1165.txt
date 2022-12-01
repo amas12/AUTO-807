@@ -1,0 +1,3 @@
+[2022-08-31T15:10:12+0300] [SEVERE] https://stage.onlc.market/api/user_profile - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:10:12+0300] [SEVERE] https://stage.onlc.market/api/user_profile/show - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-31T15:10:15+0300] [SEVERE] https://mc.yandex.com/sync_cookie_image_decide?token=9747.Kr9WGV9NaKq-tqnzOn--hLAudnHx5lTZt02E_AV8xP7C6c7FGw8x0LbQRSd_aRFus6n7Sx6DIGJpSPXSuNJChg%2C%2C.3a5LnoILGNvlaMg8qLHyK-8UWK0%2C - Failed to load resource: the server responded with a status of 400 ()

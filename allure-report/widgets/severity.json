@@ -1,0 +1,601 @@
+[ {
+  "uid" : "3dc5f9916d2a4dd4",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947805291,
+    "stop" : 1661947831619,
+    "duration" : 26328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33ec04b6939efc4c",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947502193,
+    "stop" : 1661947526899,
+    "duration" : 24706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca9f33dd7926748d",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947526909,
+    "stop" : 1661947546504,
+    "duration" : 19595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa26c7fb7198273d",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947704906,
+    "stop" : 1661947726368,
+    "duration" : 21462
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bed4b43e7a11514b",
+  "name" : "Leave the \"E-mail\" field empty",
+  "time" : {
+    "start" : 1661947199786,
+    "stop" : 1661947216384,
+    "duration" : 16598
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5ef509f898ea3d5",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947546512,
+    "stop" : 1661947571383,
+    "duration" : 24871
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cf9ca016f606a4d",
+  "name" : "expired 24",
+  "time" : {
+    "start" : 1661947011893,
+    "stop" : 1661947028160,
+    "duration" : 16267
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cd1716594abf570",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947655955,
+    "stop" : 1661947675859,
+    "duration" : 19904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5d7a30abaa70ff8",
+  "name" : "validDataTest()",
+  "time" : {
+    "start" : 1661948045962,
+    "stop" : 1661948084416,
+    "duration" : 38454
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dcf121a23b32fee",
+  "name" : "Regression Testing 3",
+  "time" : {
+    "start" : 1661948166416,
+    "stop" : 1661948179023,
+    "duration" : 12607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21e201b3b0be654",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661948099024,
+    "stop" : 1661948135204,
+    "duration" : 36180
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff88ac0630245fc",
+  "name" : "Opening the password entry form",
+  "time" : {
+    "start" : 1661947374772,
+    "stop" : 1661947393653,
+    "duration" : 18881
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "11bf04f2c6faea66",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947928682,
+    "stop" : 1661947961793,
+    "duration" : 33111
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfe8f42e0fe19840",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947743571,
+    "stop" : 1661947758064,
+    "duration" : 14493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24b0410f75c035a0",
+  "name" : "Enter values in the “E-mail” field that do not correspond to the “E-mail” format",
+  "time" : {
+    "start" : 1661947355939,
+    "stop" : 1661947374757,
+    "duration" : 18818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31eff8b2d3e164bf",
+  "name" : "registrationTest()",
+  "time" : {
+    "start" : 1661947588604,
+    "stop" : 1661947638474,
+    "duration" : 49870
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b919ab8092b95e0d",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947454132,
+    "stop" : 1661947479060,
+    "duration" : 24928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11cb6c3dd5989a56",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947726379,
+    "stop" : 1661947743556,
+    "duration" : 17177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b45731118e7b7a3c",
+  "name" : "password check",
+  "time" : {
+    "start" : 1661947336931,
+    "stop" : 1661947355925,
+    "duration" : 18994
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "675b375bb505d310",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947856563,
+    "stop" : 1661947885912,
+    "duration" : 29349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60356ffac07d0b19",
+  "name" : "Enter 33 any characters",
+  "time" : {
+    "start" : 1661947047788,
+    "stop" : 1661947068421,
+    "duration" : 20633
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d02f38165146288b",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947638490,
+    "stop" : 1661947655948,
+    "duration" : 17458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20127c5b83f92b6",
+  "name" : "Enter the e-mail of a user who is already registered on the site",
+  "time" : {
+    "start" : 1661947430975,
+    "stop" : 1661947454113,
+    "duration" : 23138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "715d23182619cd76",
+  "name" : "Fill in the Last Name field. Click on \"Create a personal account",
+  "time" : {
+    "start" : 1661947264826,
+    "stop" : 1661947287761,
+    "duration" : 22935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57ff11996b082ba",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947675869,
+    "stop" : 1661947691998,
+    "duration" : 16129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b80f3a875626e550",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947692005,
+    "stop" : 1661947704897,
+    "duration" : 12892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "962eb8de9f9afa4b",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947885919,
+    "stop" : 1661947913677,
+    "duration" : 27758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15911c130381a012",
+  "name" : "Purchase",
+  "time" : {
+    "start" : 1661948179030,
+    "stop" : 1661948252214,
+    "duration" : 73184
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9ccd1fc42266c60",
+  "name" : "Page title should have header text",
+  "time" : {
+    "start" : 1661948135222,
+    "stop" : 1661948145759,
+    "duration" : 10537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3046dd483c1cf3b",
+  "name" : "Opening the registration form by E-mail",
+  "time" : {
+    "start" : 1661946953664,
+    "stop" : 1661946971171,
+    "duration" : 17507
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b475c302e47cec9",
+  "name" : "Purchase",
+  "time" : {
+    "start" : 1661948145771,
+    "stop" : 1661948166406,
+    "duration" : 20635
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6b8a03ed1474b1f",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661948000178,
+    "stop" : 1661948018067,
+    "duration" : 17889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36544a8fa09d018d",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947758082,
+    "stop" : 1661947776347,
+    "duration" : 18265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1133717613087d8e",
+  "name" : "Creating a password”",
+  "time" : {
+    "start" : 1661947406784,
+    "stop" : 1661947430959,
+    "duration" : 24175
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c476932410edcb03",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947985581,
+    "stop" : 1661947990127,
+    "duration" : 4546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a5f8dab815dbc92",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947913685,
+    "stop" : 1661947928675,
+    "duration" : 14990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "637d24b6a0c6b01b",
+  "name" : "Leave all fields blank",
+  "time" : {
+    "start" : 1661947240528,
+    "stop" : 1661947264806,
+    "duration" : 24278
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b4ba97b6ea2ffa9",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947571392,
+    "stop" : 1661947588589,
+    "duration" : 17197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce65b800e617ba28",
+  "name" : "Create an offer",
+  "time" : {
+    "start" : 1661946913720,
+    "stop" : 1661946953637,
+    "duration" : 39917
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "18849f674c2a06fa",
+  "name" : "list of offers of the current organization.",
+  "time" : {
+    "start" : 1661946828851,
+    "stop" : 1661946874980,
+    "duration" : 46129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb56d2d9e88157fe",
+  "name" : "Opening a login form",
+  "time" : {
+    "start" : 1661947393663,
+    "stop" : 1661947406772,
+    "duration" : 13109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b98c435d0994939",
+  "name" : "Fill in the \"Name\" field. Delete the data in the \"Last Name\" field.",
+  "time" : {
+    "start" : 1661947068434,
+    "stop" : 1661947089143,
+    "duration" : 20709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecc8f35739749ef9",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947479069,
+    "stop" : 1661947502185,
+    "duration" : 23116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "507ff10d7b7c04ae",
+  "name" : "input fields different passwords",
+  "time" : {
+    "start" : 1661947312670,
+    "stop" : 1661947336910,
+    "duration" : 24240
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fc71a7d616dbc4",
+  "name" : "Fill in all required fields with correct data.",
+  "time" : {
+    "start" : 1661947028175,
+    "stop" : 1661947047779,
+    "duration" : 19604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6602d1361741dc2f",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661948084424,
+    "stop" : 1661948099017,
+    "duration" : 14593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23354f4dbd647f53",
+  "name" : "Create an offer",
+  "time" : {
+    "start" : 1661946875084,
+    "stop" : 1661946913696,
+    "duration" : 38612
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "724bf50ab0449107",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947961806,
+    "stop" : 1661947985568,
+    "duration" : 23762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2188dcf2d669c10f",
+  "name" : "Fill in the “E-mail” field with correct data. Delete the data in the “Name” field.",
+  "time" : {
+    "start" : 1661947183825,
+    "stop" : 1661947199776,
+    "duration" : 15951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21ea0c239ee18d0d",
+  "name" : "Follow the link twice",
+  "time" : {
+    "start" : 1661946971188,
+    "stop" : 1661946994067,
+    "duration" : 22879
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "58a3ed6c37dfa93b",
+  "name" : "Registration by E-mail",
+  "time" : {
+    "start" : 1661946994083,
+    "stop" : 1661947011867,
+    "duration" : 17784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa99ad40ec9d8a4f",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947831626,
+    "stop" : 1661947856552,
+    "duration" : 24926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1695c8d48ffd0d4",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661947776359,
+    "stop" : 1661947805283,
+    "duration" : 28924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb9d2fafaab46e6",
+  "name" : "Regression Testing",
+  "time" : {
+    "start" : 1661948018074,
+    "stop" : 1661948045952,
+    "duration" : 27878
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f86d25237fef008f",
+  "name" : "Regression Testing 1",
+  "time" : {
+    "start" : 1661948252225,
+    "stop" : 1661948296282,
+    "duration" : 44057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86116debe77b4f84",
+  "name" : "Create a password",
+  "time" : {
+    "start" : 1661947216402,
+    "stop" : 1661947240516,
+    "duration" : 24114
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8567e63632bdc951",
+  "name" : "Checking that the letters went to the operator",
+  "time" : {
+    "start" : 1661947287774,
+    "stop" : 1661947312662,
+    "duration" : 24888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ba58e99c18298a4",
+  "name" : "Fill in the \"Name\" field. Save the data in the Last Name field.",
+  "time" : {
+    "start" : 1661947160225,
+    "stop" : 1661947183814,
+    "duration" : 23589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b20571eeec354365",
+  "name" : "Checking that the letters went to the operator",
+  "time" : {
+    "start" : 1661947089159,
+    "stop" : 1661947160198,
+    "duration" : 71039
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "54ea25bc9ec04bde",
+  "name" : "Page title should have header text",
+  "time" : {
+    "start" : 1661947990143,
+    "stop" : 1661948000170,
+    "duration" : 10027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
